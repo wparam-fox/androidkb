@@ -1,13 +1,13 @@
 # Keep classes and methods that have the @UsedForTesting annotation
--keep @com.android.inputmethod.annotations.UsedForTesting class *
+-keep @com.wparam.kb.inputmethod.annotations.UsedForTesting class *
 -keepclassmembers class * {
-    @com.android.inputmethod.annotations.UsedForTesting *;
+    @com.wparam.kb.inputmethod.annotations.UsedForTesting *;
 }
 
 # Keep classes and methods that have the @ExternallyReferenced annotation
--keep @com.android.inputmethod.annotations.ExternallyReferenced class *
+-keep @com.wparam.kb.inputmethod.annotations.ExternallyReferenced class *
 -keepclassmembers class * {
-    @com.android.inputmethod.annotations.ExternallyReferenced *;
+    @com.wparam.kb.inputmethod.annotations.ExternallyReferenced *;
 }
 
 # Keep native methods
