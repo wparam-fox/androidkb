@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.setup;
+package com.wparam.kb.inputmethod.latin.setup;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -27,8 +27,8 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.inputmethod.InputMethodManager;
 
-import com.android.inputmethod.compat.IntentCompatUtils;
-import com.android.inputmethod.latin.settings.Settings;
+import com.wparam.kb.inputmethod.compat.IntentCompatUtils;
+import com.wparam.kb.inputmethod.latin.settings.Settings;
 
 /**
  * This class detects the {@link Intent#ACTION_MY_PACKAGE_REPLACED} broadcast intent when this IME

@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 /**
  * A class to group constants for dictionary pack usage.
@@ -28,7 +28,7 @@ public class DictionaryPackConstants {
      * The root domain for the dictionary pack, upon which authorities and actions will append
      * their own distinctive strings.
      */
-    private static final String DICTIONARY_DOMAIN = "com.android.inputmethod.dictionarypack.aosp";
+    private static final String DICTIONARY_DOMAIN = "com.wparam.kb.inputmethod.dictionarypack.aosp";
 
     /**
      * Authority for the ContentProvider protocol.

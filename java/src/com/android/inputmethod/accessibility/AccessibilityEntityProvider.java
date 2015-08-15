@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.accessibility;
+package com.wparam.kb.inputmethod.accessibility;
 
 import android.graphics.Rect;
 import android.inputmethodservice.InputMethodService;
@@ -32,13 +32,13 @@ import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardView;
-import com.android.inputmethod.latin.settings.Settings;
-import com.android.inputmethod.latin.settings.SettingsValues;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.CoordinateUtils;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.KeyboardView;
+import com.wparam.kb.inputmethod.latin.settings.Settings;
+import com.wparam.kb.inputmethod.latin.settings.SettingsValues;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.CoordinateUtils;
 
 /**
  * Exposes a virtual view sub-tree for {@link KeyboardView} and generates

@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
 import android.content.Context;
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.keyboard.internal.KeyPreviewDrawParams;
-import com.android.inputmethod.keyboard.internal.KeyboardBuilder;
-import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
-import com.android.inputmethod.keyboard.internal.KeyboardParams;
-import com.android.inputmethod.keyboard.internal.MoreKeySpec;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.StringUtils;
-import com.android.inputmethod.latin.utils.TypefaceUtils;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyPreviewDrawParams;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardBuilder;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardIconsSet;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardParams;
+import com.wparam.kb.inputmethod.keyboard.internal.MoreKeySpec;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.latin.utils.TypefaceUtils;
 
 public final class MoreKeysKeyboard extends Keyboard {
     private final int mDefaultKeyCoordX;

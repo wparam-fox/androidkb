@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -22,9 +22,9 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.view.View;
 
-import com.android.inputmethod.keyboard.PointerTracker;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.CoordinateUtils;
+import com.wparam.kb.inputmethod.keyboard.PointerTracker;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.CoordinateUtils;
 
 /**
  * Draw rubber band preview graphics during sliding key input.

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.JsonWriter;
 import android.util.Log;
 
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
 
 import java.io.IOException;
 import java.util.ArrayList;

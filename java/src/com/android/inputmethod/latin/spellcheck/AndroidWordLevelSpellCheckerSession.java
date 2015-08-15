@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package com.wparam.kb.inputmethod.latin.spellcheck;
 
 import android.content.ContentResolver;
 import android.database.ContentObserver;
@@ -27,14 +27,14 @@ import android.util.LruCache;
 import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 
-import com.android.inputmethod.compat.SuggestionsInfoCompatUtils;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.WordComposer;
-import com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService.SuggestionsGatherer;
-import com.android.inputmethod.latin.utils.LocaleUtils;
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.compat.SuggestionsInfoCompatUtils;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.Dictionary;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.WordComposer;
+import com.wparam.kb.inputmethod.latin.spellcheck.AndroidSpellCheckerService.SuggestionsGatherer;
+import com.wparam.kb.inputmethod.latin.utils.LocaleUtils;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Locale;

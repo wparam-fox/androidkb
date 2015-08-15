@@ -14,9 +14,9 @@
  * under the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
-import com.android.inputmethod.latin.utils.FragmentUtils;
+import com.wparam.kb.inputmethod.latin.utils.FragmentUtils;
 
 import android.content.Intent;
 import android.os.Bundle;

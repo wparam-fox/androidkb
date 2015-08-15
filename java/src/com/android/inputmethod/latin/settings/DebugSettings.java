@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.settings;
+package com.wparam.kb.inputmethod.latin.settings;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -24,11 +24,11 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.android.inputmethod.keyboard.KeyboardSwitcher;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.debug.ExternalDictionaryGetterForDebug;
-import com.android.inputmethod.latin.utils.ApplicationUtils;
+import com.wparam.kb.inputmethod.keyboard.KeyboardSwitcher;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.debug.ExternalDictionaryGetterForDebug;
+import com.wparam.kb.inputmethod.latin.utils.ApplicationUtils;
 
 public final class DebugSettings extends PreferenceFragment
         implements SharedPreferences.OnSharedPreferenceChangeListener {

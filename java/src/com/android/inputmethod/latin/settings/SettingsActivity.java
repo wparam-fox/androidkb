@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.settings;
+package com.wparam.kb.inputmethod.latin.settings;
 
-import com.android.inputmethod.latin.utils.FragmentUtils;
+import com.wparam.kb.inputmethod.latin.utils.FragmentUtils;
 
 import android.content.Intent;
 import android.preference.PreferenceActivity;

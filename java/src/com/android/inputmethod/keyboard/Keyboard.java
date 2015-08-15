@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
 import android.util.SparseArray;
 
-import com.android.inputmethod.keyboard.internal.KeyVisualAttributes;
-import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
-import com.android.inputmethod.keyboard.internal.KeyboardParams;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyVisualAttributes;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardIconsSet;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardParams;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 /**
  * Loads an XML description of a keyboard and stores the attributes of the keys. A keyboard

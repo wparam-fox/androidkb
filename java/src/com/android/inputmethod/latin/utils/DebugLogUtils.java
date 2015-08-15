@@ -14,11 +14,11 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
 import android.util.Log;
 
-import com.android.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
 
 /**
  * A class for logging and debugging utility methods.

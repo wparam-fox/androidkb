@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
-import com.android.inputmethod.latin.makedict.BinaryDictDecoderUtils.DictBuffer;
+import com.wparam.kb.inputmethod.latin.makedict.BinaryDictDecoderUtils.DictBuffer;
 
 /**
  * This class provides an implementation for the FusionDictionary buffer interface that is backed

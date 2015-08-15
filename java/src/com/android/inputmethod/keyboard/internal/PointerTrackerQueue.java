@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.util.Log;
 
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import java.util.ArrayList;
 

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
 import android.text.InputType;
 import android.text.TextUtils;
 
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.WordComposer;
-import com.android.inputmethod.latin.settings.SettingsValues;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.WordComposer;
+import com.wparam.kb.inputmethod.latin.settings.SettingsValues;
 
 import java.util.Locale;
 

@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.suggestions;
+package com.wparam.kb.inputmethod.latin.suggestions;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardActionListener;
-import com.android.inputmethod.keyboard.internal.KeyboardBuilder;
-import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
-import com.android.inputmethod.keyboard.internal.KeyboardParams;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.utils.TypefaceUtils;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.KeyboardActionListener;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardBuilder;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardIconsSet;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardParams;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.utils.TypefaceUtils;
 
 public final class MoreSuggestions extends Keyboard {
     public static final int SUGGESTION_CODE_BASE = 1024;

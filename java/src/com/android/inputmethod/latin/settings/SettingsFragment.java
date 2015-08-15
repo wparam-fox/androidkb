@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.settings;
+package com.wparam.kb.inputmethod.latin.settings;
 
 import android.app.Activity;
 import android.app.backup.BackupManager;
@@ -36,20 +36,20 @@ import android.preference.PreferenceScreen;
 import android.util.Log;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.dictionarypack.DictionarySettingsActivity;
-import com.android.inputmethod.latin.AudioAndHapticFeedbackManager;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SubtypeSwitcher;
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethod.latin.setup.LauncherIconVisibilityManager;
-import com.android.inputmethod.latin.userdictionary.UserDictionaryList;
-import com.android.inputmethod.latin.userdictionary.UserDictionarySettings;
-import com.android.inputmethod.latin.utils.AdditionalSubtypeUtils;
-import com.android.inputmethod.latin.utils.ApplicationUtils;
-import com.android.inputmethod.latin.utils.FeedbackUtils;
-import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
-import com.android.inputmethod.research.ResearchLogger;
-import com.android.inputmethodcommon.InputMethodSettingsFragment;
+import com.wparam.kb.inputmethod.dictionarypack.DictionarySettingsActivity;
+import com.wparam.kb.inputmethod.latin.AudioAndHapticFeedbackManager;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SubtypeSwitcher;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.setup.LauncherIconVisibilityManager;
+import com.wparam.kb.inputmethod.latin.userdictionary.UserDictionaryList;
+import com.wparam.kb.inputmethod.latin.userdictionary.UserDictionarySettings;
+import com.wparam.kb.inputmethod.latin.utils.AdditionalSubtypeUtils;
+import com.wparam.kb.inputmethod.latin.utils.ApplicationUtils;
+import com.wparam.kb.inputmethod.latin.utils.FeedbackUtils;
+import com.wparam.kb.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.wparam.kb.inputmethod.research.ResearchLogger;
+import com.wparam.kb.inputmethodcommon.InputMethodSettingsFragment;
 
 import java.util.TreeSet;
 

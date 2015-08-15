@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.graphics.Canvas;
 import android.view.View;
 
-import com.android.inputmethod.keyboard.PointerTracker;
+import com.wparam.kb.inputmethod.keyboard.PointerTracker;
 
 /**
  * Abstract base class for previews that are drawn on PreviewPlacerView, e.g.,

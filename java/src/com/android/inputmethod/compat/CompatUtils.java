@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.compat;
+package com.wparam.kb.inputmethod.compat;
 
 import android.text.TextUtils;
 import android.util.Log;

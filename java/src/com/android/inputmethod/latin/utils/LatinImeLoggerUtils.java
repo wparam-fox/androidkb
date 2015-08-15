@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
 import android.text.TextUtils;
 
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.WordComposer;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.WordComposer;
 
 public final class LatinImeLoggerUtils {
     private LatinImeLoggerUtils() {

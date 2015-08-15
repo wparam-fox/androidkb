@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.debug;
+package com.wparam.kb.inputmethod.latin.debug;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -23,13 +23,13 @@ import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnClickListener;
 import android.os.Environment;
 
-import com.android.inputmethod.latin.BinaryDictionaryFileDumper;
-import com.android.inputmethod.latin.BinaryDictionaryGetter;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.makedict.FormatSpec.FileHeader;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.DictionaryInfoUtils;
-import com.android.inputmethod.latin.utils.LocaleUtils;
+import com.wparam.kb.inputmethod.latin.BinaryDictionaryFileDumper;
+import com.wparam.kb.inputmethod.latin.BinaryDictionaryGetter;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec.FileHeader;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.DictionaryInfoUtils;
+import com.wparam.kb.inputmethod.latin.utils.LocaleUtils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

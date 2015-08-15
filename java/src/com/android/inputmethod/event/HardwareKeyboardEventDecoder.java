@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.event;
+package com.wparam.kb.inputmethod.event;
 
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 
-import com.android.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.Constants;
 
 /**
  * A hardware event decoder for a hardware qwerty-ish keyboard.

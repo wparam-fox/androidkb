@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
-import com.android.inputmethod.latin.BinaryDictionary;
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.Suggest;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.BinaryDictionary;
+import com.wparam.kb.inputmethod.latin.Dictionary;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.Suggest;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
 
 import android.text.TextUtils;
 import android.util.Log;

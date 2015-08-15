@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -26,7 +26,7 @@ import android.view.ViewParent;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.R;
 
 import java.util.Locale;
 

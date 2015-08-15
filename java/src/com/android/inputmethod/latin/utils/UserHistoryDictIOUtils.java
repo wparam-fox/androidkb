@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
 import android.util.Log;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.makedict.BinaryDictIOUtils;
-import com.android.inputmethod.latin.makedict.DictDecoder;
-import com.android.inputmethod.latin.makedict.DictEncoder;
-import com.android.inputmethod.latin.makedict.FormatSpec.FormatOptions;
-import com.android.inputmethod.latin.makedict.FusionDictionary;
-import com.android.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
-import com.android.inputmethod.latin.makedict.PendingAttribute;
-import com.android.inputmethod.latin.makedict.UnsupportedFormatException;
-import com.android.inputmethod.latin.personalization.UserHistoryDictionaryBigramList;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.makedict.BinaryDictIOUtils;
+import com.wparam.kb.inputmethod.latin.makedict.DictDecoder;
+import com.wparam.kb.inputmethod.latin.makedict.DictEncoder;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec.FormatOptions;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
+import com.wparam.kb.inputmethod.latin.makedict.PendingAttribute;
+import com.wparam.kb.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.wparam.kb.inputmethod.latin.personalization.UserHistoryDictionaryBigramList;
 
 import java.io.IOException;
 import java.util.ArrayList;

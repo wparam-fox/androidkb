@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.suggestions;
+package com.wparam.kb.inputmethod.latin.suggestions;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -29,20 +29,20 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardSwitcher;
-import com.android.inputmethod.keyboard.MainKeyboardView;
-import com.android.inputmethod.keyboard.MoreKeysPanel;
-import com.android.inputmethod.latin.AudioAndHapticFeedbackManager;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethod.latin.suggestions.MoreSuggestions.MoreSuggestionsListener;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.research.ResearchLogger;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.KeyboardSwitcher;
+import com.wparam.kb.inputmethod.keyboard.MainKeyboardView;
+import com.wparam.kb.inputmethod.keyboard.MoreKeysPanel;
+import com.wparam.kb.inputmethod.latin.AudioAndHapticFeedbackManager;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.suggestions.MoreSuggestions.MoreSuggestionsListener;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.research.ResearchLogger;
 
 import java.util.ArrayList;
 

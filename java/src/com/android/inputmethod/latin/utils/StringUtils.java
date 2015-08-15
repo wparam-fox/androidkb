@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.settings.SettingsValues;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.settings.SettingsValues;
 
 import android.text.TextUtils;
 import android.util.JsonReader;

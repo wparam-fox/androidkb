@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethodcommon;
+package com.wparam.kb.inputmethodcommon;
 
 import android.content.Context;
 import android.content.Intent;

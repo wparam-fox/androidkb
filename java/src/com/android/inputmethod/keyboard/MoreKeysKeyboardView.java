@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -22,9 +22,9 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.CoordinateUtils;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.CoordinateUtils;
 
 /**
  * A view that renders a virtual {@link MoreKeysKeyboard}. It handles rendering of keys and

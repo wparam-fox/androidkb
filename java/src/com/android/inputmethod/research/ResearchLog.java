@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.content.Context;
 import android.util.JsonWriter;
 import android.util.Log;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
 
 import java.io.BufferedWriter;
 import java.io.File;

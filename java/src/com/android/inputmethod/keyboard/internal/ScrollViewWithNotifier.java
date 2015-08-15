@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.util.AttributeSet;

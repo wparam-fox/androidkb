@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.personalization;
+package com.wparam.kb.inputmethod.latin.personalization;
 
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.latin.ExpandableBinaryDictionary;
+import com.wparam.kb.inputmethod.latin.Dictionary;
+import com.wparam.kb.inputmethod.latin.ExpandableBinaryDictionary;
 
 import android.content.Context;
 import android.content.SharedPreferences;

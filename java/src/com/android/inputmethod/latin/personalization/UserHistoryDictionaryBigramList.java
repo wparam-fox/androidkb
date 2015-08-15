@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.personalization;
+package com.wparam.kb.inputmethod.latin.personalization;
 
 import android.util.Log;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import java.util.HashMap;
 import java.util.Set;

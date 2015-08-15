@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
-import com.android.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
 
 import java.util.ArrayList;
 

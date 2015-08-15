@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package com.wparam.kb.inputmethod.latin.spellcheck;
 
 import android.service.textservice.SpellCheckerService.Session;
 

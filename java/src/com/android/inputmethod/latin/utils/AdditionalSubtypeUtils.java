@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
-import static com.android.inputmethod.latin.Constants.Subtype.KEYBOARD_MODE;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.IS_ADDITIONAL_SUBTYPE;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.KEYBOARD_MODE;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.ExtraValue.IS_ADDITIONAL_SUBTYPE;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
 
 import android.os.Build;
 import android.text.TextUtils;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.compat.InputMethodSubtypeCompatUtils;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.compat.InputMethodSubtypeCompatUtils;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.R;
 
 import java.util.ArrayList;
 

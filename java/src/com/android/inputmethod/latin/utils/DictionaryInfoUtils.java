@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -22,11 +22,11 @@ import android.content.res.AssetManager;
 import android.content.res.Resources;
 import android.util.Log;
 
-import com.android.inputmethod.latin.AssetFileAddress;
-import com.android.inputmethod.latin.BinaryDictionaryGetter;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.makedict.BinaryDictIOUtils;
-import com.android.inputmethod.latin.makedict.FormatSpec.FileHeader;
+import com.wparam.kb.inputmethod.latin.AssetFileAddress;
+import com.wparam.kb.inputmethod.latin.BinaryDictionaryGetter;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.makedict.BinaryDictIOUtils;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec.FileHeader;
 
 import java.io.File;
 import java.util.ArrayList;

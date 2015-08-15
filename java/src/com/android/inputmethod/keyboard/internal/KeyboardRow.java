@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.util.Xml;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.ResourceUtils;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.ResourceUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 

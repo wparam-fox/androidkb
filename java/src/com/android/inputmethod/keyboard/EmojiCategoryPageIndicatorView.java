@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.R;
 
 import android.content.Context;
 import android.graphics.Canvas;

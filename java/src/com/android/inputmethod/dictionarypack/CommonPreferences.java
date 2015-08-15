@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 import android.content.Context;
 import android.content.SharedPreferences;

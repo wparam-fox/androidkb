@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ResourceUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.ResourceUtils;
 
 import android.content.res.Resources;
 import android.support.v4.view.ViewPager;

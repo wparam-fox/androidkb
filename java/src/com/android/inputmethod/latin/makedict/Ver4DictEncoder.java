@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package com.wparam.kb.inputmethod.latin.makedict;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.makedict.BinaryDictDecoderUtils.CharEncoding;
-import com.android.inputmethod.latin.makedict.FormatSpec.FileHeader;
-import com.android.inputmethod.latin.makedict.FormatSpec.FormatOptions;
-import com.android.inputmethod.latin.makedict.FusionDictionary.DictionaryOptions;
-import com.android.inputmethod.latin.makedict.FusionDictionary.PtNode;
-import com.android.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
-import com.android.inputmethod.latin.makedict.FusionDictionary.WeightedString;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.makedict.BinaryDictDecoderUtils.CharEncoding;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec.FileHeader;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec.FormatOptions;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.DictionaryOptions;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.PtNode;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.WeightedString;
 
 import java.io.File;
 import java.io.FileNotFoundException;

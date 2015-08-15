@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.accessibility;
+package com.wparam.kb.inputmethod.accessibility;
 
 import android.content.Context;
 import android.inputmethodservice.InputMethodService;
@@ -33,10 +33,10 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.compat.SettingsSecureCompatUtils;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.utils.InputTypeUtils;
+import com.wparam.kb.inputmethod.compat.SettingsSecureCompatUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.utils.InputTypeUtils;
 
 public final class AccessibilityUtils {
     private static final String TAG = AccessibilityUtils.class.getSimpleName();

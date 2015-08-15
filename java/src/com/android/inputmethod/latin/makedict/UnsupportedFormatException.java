@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package com.wparam.kb.inputmethod.latin.makedict;
 
 /**
  * Simple exception thrown when a file format is not recognized.

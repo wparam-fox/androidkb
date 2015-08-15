@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.R;
 
 import android.content.Context;
 

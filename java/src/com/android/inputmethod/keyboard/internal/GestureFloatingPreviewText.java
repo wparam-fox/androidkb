@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -25,10 +25,10 @@ import android.graphics.RectF;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.android.inputmethod.keyboard.PointerTracker;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.utils.CoordinateUtils;
+import com.wparam.kb.inputmethod.keyboard.PointerTracker;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.utils.CoordinateUtils;
 
 /**
  * The class for single gesture preview text. The class for multiple gesture preview text will be

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
@@ -27,12 +27,12 @@ import android.os.RemoteException;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.dictionarypack.DictionaryPackConstants;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.DictionaryInfoUtils;
-import com.android.inputmethod.latin.utils.DictionaryInfoUtils.DictionaryInfo;
-import com.android.inputmethod.latin.utils.FileTransforms;
-import com.android.inputmethod.latin.utils.MetadataFileUriGetter;
+import com.wparam.kb.inputmethod.dictionarypack.DictionaryPackConstants;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.DictionaryInfoUtils;
+import com.wparam.kb.inputmethod.latin.utils.DictionaryInfoUtils.DictionaryInfo;
+import com.wparam.kb.inputmethod.latin.utils.FileTransforms;
+import com.wparam.kb.inputmethod.latin.utils.MetadataFileUriGetter;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

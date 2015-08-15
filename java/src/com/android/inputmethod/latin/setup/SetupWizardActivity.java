@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.setup;
+package com.wparam.kb.inputmethod.latin.setup;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -33,12 +33,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.VideoView;
 
-import com.android.inputmethod.compat.TextViewCompatUtils;
-import com.android.inputmethod.compat.ViewCompatUtils;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.settings.SettingsActivity;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.StaticInnerHandlerWrapper;
+import com.wparam.kb.inputmethod.compat.TextViewCompatUtils;
+import com.wparam.kb.inputmethod.compat.ViewCompatUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.settings.SettingsActivity;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.StaticInnerHandlerWrapper;
 
 import java.util.ArrayList;
 

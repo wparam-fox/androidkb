@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

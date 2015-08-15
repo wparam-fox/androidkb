@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.compat;
+package com.wparam.kb.inputmethod.compat;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -23,10 +23,10 @@ import android.text.Spanned;
 import android.text.TextUtils;
 import android.text.style.SuggestionSpan;
 
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.SuggestionSpanPickedNotificationReceiver;
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.SuggestionSpanPickedNotificationReceiver;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

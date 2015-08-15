@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.personalization;
+package com.wparam.kb.inputmethod.latin.personalization;
 
 import android.content.Context;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.compat.ActivityManagerCompatUtils;
-import com.android.inputmethod.keyboard.ProximityInfo;
-import com.android.inputmethod.latin.AbstractDictionaryWriter;
-import com.android.inputmethod.latin.ExpandableDictionary;
-import com.android.inputmethod.latin.WordComposer;
-import com.android.inputmethod.latin.ExpandableDictionary.NextWord;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.makedict.DictEncoder;
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.makedict.UnsupportedFormatException;
-import com.android.inputmethod.latin.utils.UserHistoryDictIOUtils;
-import com.android.inputmethod.latin.utils.UserHistoryDictIOUtils.BigramDictionaryInterface;
-import com.android.inputmethod.latin.utils.UserHistoryForgettingCurveUtils;
-import com.android.inputmethod.latin.utils.UserHistoryForgettingCurveUtils.ForgettingCurveParams;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.compat.ActivityManagerCompatUtils;
+import com.wparam.kb.inputmethod.keyboard.ProximityInfo;
+import com.wparam.kb.inputmethod.latin.AbstractDictionaryWriter;
+import com.wparam.kb.inputmethod.latin.ExpandableDictionary;
+import com.wparam.kb.inputmethod.latin.WordComposer;
+import com.wparam.kb.inputmethod.latin.ExpandableDictionary.NextWord;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.makedict.DictEncoder;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec;
+import com.wparam.kb.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.wparam.kb.inputmethod.latin.utils.UserHistoryDictIOUtils;
+import com.wparam.kb.inputmethod.latin.utils.UserHistoryDictIOUtils.BigramDictionaryInterface;
+import com.wparam.kb.inputmethod.latin.utils.UserHistoryForgettingCurveUtils;
+import com.wparam.kb.inputmethod.latin.utils.UserHistoryForgettingCurveUtils.ForgettingCurveParams;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package com.wparam.kb.inputmethod.latin.makedict;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.makedict.BinaryDictDecoderUtils.DictBuffer;
-import com.android.inputmethod.latin.makedict.FormatSpec.FileHeader;
-import com.android.inputmethod.latin.makedict.FormatSpec.FormatOptions;
-import com.android.inputmethod.latin.utils.ByteArrayDictBuffer;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.makedict.BinaryDictDecoderUtils.DictBuffer;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec.FileHeader;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec.FormatOptions;
+import com.wparam.kb.inputmethod.latin.utils.ByteArrayDictBuffer;
 
 import java.io.File;
 import java.io.FileInputStream;

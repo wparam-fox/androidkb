@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ResizableIntArray;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.ResizableIntArray;
 
 public final class GestureStrokeWithPreviewPoints extends GestureStroke {
     public static final int PREVIEW_CAPACITY = 256;

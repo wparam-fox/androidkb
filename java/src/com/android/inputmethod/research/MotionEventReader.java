@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.util.JsonReader;
 import android.util.Log;
@@ -22,8 +22,8 @@ import android.view.MotionEvent;
 import android.view.MotionEvent.PointerCoords;
 import android.view.MotionEvent.PointerProperties;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
 
 import java.io.BufferedReader;
 import java.io.File;

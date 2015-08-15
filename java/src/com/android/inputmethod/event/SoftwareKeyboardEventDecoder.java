@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.event;
+package com.wparam.kb.inputmethod.event;
 
 /**
  * A decoder for events from software keyboard, like the ones displayed by Latin IME.

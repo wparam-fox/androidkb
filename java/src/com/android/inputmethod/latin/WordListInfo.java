@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 /**
  * Information container for a word list.

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.userdictionary;
+package com.wparam.kb.inputmethod.latin.userdictionary;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.LocaleUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.LocaleUtils;
 
 import android.content.Context;
 import android.text.TextUtils;

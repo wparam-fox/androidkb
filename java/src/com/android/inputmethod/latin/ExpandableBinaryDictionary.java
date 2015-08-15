@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 import android.content.Context;
 import android.os.SystemClock;
 import android.util.Log;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.keyboard.ProximityInfo;
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.personalization.DynamicPersonalizationDictionaryWriter;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.utils.AsyncResultHolder;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.PrioritizedSerialExecutor;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.keyboard.ProximityInfo;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec;
+import com.wparam.kb.inputmethod.latin.personalization.DynamicPersonalizationDictionaryWriter;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.utils.AsyncResultHolder;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.PrioritizedSerialExecutor;
 
 import java.io.File;
 import java.util.ArrayList;

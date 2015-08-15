@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.personalization;
+package com.wparam.kb.inputmethod.latin.personalization;
 
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -27,7 +27,7 @@ import android.os.Process;
 import android.util.Log;
 import android.view.MotionEvent;
 
-import com.android.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
 
 import java.io.BufferedReader;
 import java.io.File;

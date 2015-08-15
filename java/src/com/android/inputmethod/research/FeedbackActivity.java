@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.R;
 
 public class FeedbackActivity extends Activity {
     @Override

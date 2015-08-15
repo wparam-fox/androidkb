@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.InputPointers;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.InputPointers;
 
 public interface KeyboardActionListener {
     /**

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.SparseIntArray;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ResourceUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.ResourceUtils;
 
 public final class KeyVisualAttributes {
     public final Typeface mTypeface;

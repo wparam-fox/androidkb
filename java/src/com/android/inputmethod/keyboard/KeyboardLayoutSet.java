@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
-import static com.android.inputmethod.latin.Constants.ImeOption.FORCE_ASCII;
-import static com.android.inputmethod.latin.Constants.ImeOption.NO_MICROPHONE;
-import static com.android.inputmethod.latin.Constants.ImeOption.NO_MICROPHONE_COMPAT;
-import static com.android.inputmethod.latin.Constants.ImeOption.NO_SETTINGS_KEY;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
+import static com.wparam.kb.inputmethod.latin.Constants.ImeOption.FORCE_ASCII;
+import static com.wparam.kb.inputmethod.latin.Constants.ImeOption.NO_MICROPHONE;
+import static com.wparam.kb.inputmethod.latin.Constants.ImeOption.NO_MICROPHONE_COMPAT;
+import static com.wparam.kb.inputmethod.latin.Constants.ImeOption.NO_SETTINGS_KEY;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -33,18 +33,18 @@ import android.util.Xml;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.compat.EditorInfoCompatUtils;
-import com.android.inputmethod.keyboard.internal.KeyboardBuilder;
-import com.android.inputmethod.keyboard.internal.KeyboardParams;
-import com.android.inputmethod.keyboard.internal.KeysCache;
-import com.android.inputmethod.latin.InputAttributes;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SubtypeSwitcher;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.InputTypeUtils;
-import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
-import com.android.inputmethod.latin.utils.XmlParseUtils;
+import com.wparam.kb.inputmethod.compat.EditorInfoCompatUtils;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardBuilder;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardParams;
+import com.wparam.kb.inputmethod.keyboard.internal.KeysCache;
+import com.wparam.kb.inputmethod.latin.InputAttributes;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SubtypeSwitcher;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.InputTypeUtils;
+import com.wparam.kb.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.wparam.kb.inputmethod.latin.utils.XmlParseUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

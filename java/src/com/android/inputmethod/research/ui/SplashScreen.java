@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research.ui;
+package com.wparam.kb.inputmethod.research.ui;
 
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
@@ -27,7 +27,7 @@ import android.os.IBinder;
 import android.view.Window;
 import android.view.WindowManager.LayoutParams;
 
-import com.android.inputmethod.latin.R.string;
+import com.wparam.kb.inputmethod.latin.R.string;
 
 /**
  * Show a dialog when the user first opens the keyboard.

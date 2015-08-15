@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 import android.content.SharedPreferences;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
 
 public final class LatinImeLogger implements SharedPreferences.OnSharedPreferenceChangeListener {
 

@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.AssetFileDescriptor;
 import android.util.Log;
 
-import com.android.inputmethod.latin.makedict.DictDecoder;
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.makedict.FormatSpec.FileHeader;
-import com.android.inputmethod.latin.makedict.UnsupportedFormatException;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.DictionaryInfoUtils;
-import com.android.inputmethod.latin.utils.LocaleUtils;
+import com.wparam.kb.inputmethod.latin.makedict.DictDecoder;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec.FileHeader;
+import com.wparam.kb.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.DictionaryInfoUtils;
+import com.wparam.kb.inputmethod.latin.utils.LocaleUtils;
 
 import java.io.File;
 import java.io.IOException;

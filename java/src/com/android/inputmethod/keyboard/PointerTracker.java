@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -23,22 +23,22 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.MotionEvent;
 
-import com.android.inputmethod.accessibility.AccessibilityUtils;
-import com.android.inputmethod.keyboard.internal.GestureStroke;
-import com.android.inputmethod.keyboard.internal.GestureStroke.GestureStrokeParams;
-import com.android.inputmethod.keyboard.internal.GestureStrokeWithPreviewPoints;
-import com.android.inputmethod.keyboard.internal.GestureStrokeWithPreviewPoints.GestureStrokePreviewParams;
-import com.android.inputmethod.keyboard.internal.PointerTrackerQueue;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.InputPointers;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethod.latin.settings.Settings;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.CoordinateUtils;
-import com.android.inputmethod.latin.utils.ResourceUtils;
-import com.android.inputmethod.research.ResearchLogger;
+import com.wparam.kb.inputmethod.accessibility.AccessibilityUtils;
+import com.wparam.kb.inputmethod.keyboard.internal.GestureStroke;
+import com.wparam.kb.inputmethod.keyboard.internal.GestureStroke.GestureStrokeParams;
+import com.wparam.kb.inputmethod.keyboard.internal.GestureStrokeWithPreviewPoints;
+import com.wparam.kb.inputmethod.keyboard.internal.GestureStrokeWithPreviewPoints.GestureStrokePreviewParams;
+import com.wparam.kb.inputmethod.keyboard.internal.PointerTrackerQueue;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.InputPointers;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.settings.Settings;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.CoordinateUtils;
+import com.wparam.kb.inputmethod.latin.utils.ResourceUtils;
+import com.wparam.kb.inputmethod.research.ResearchLogger;
 
 import java.util.ArrayList;
 

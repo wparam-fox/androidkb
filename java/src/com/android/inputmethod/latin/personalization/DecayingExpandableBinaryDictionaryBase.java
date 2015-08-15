@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.personalization;
+package com.wparam.kb.inputmethod.latin.personalization;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.latin.ExpandableBinaryDictionary;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.makedict.DictDecoder;
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.settings.Settings;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.UserHistoryDictIOUtils;
-import com.android.inputmethod.latin.utils.UserHistoryDictIOUtils.OnAddWordListener;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.Dictionary;
+import com.wparam.kb.inputmethod.latin.ExpandableBinaryDictionary;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.makedict.DictDecoder;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec;
+import com.wparam.kb.inputmethod.latin.settings.Settings;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.UserHistoryDictIOUtils;
+import com.wparam.kb.inputmethod.latin.utils.UserHistoryDictIOUtils.OnAddWordListener;
 
 import java.io.File;
 import java.io.IOException;

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.suggestions;
+package com.wparam.kb.inputmethod.latin.suggestions;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.MoreKeysKeyboardView;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.suggestions.MoreSuggestions.MoreSuggestionsListener;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.MoreKeysKeyboardView;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.suggestions.MoreSuggestions.MoreSuggestionsListener;
 
 /**
  * A view that renders a virtual {@link MoreSuggestions}. It handles rendering of keys and detecting

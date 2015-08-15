@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.settings;
+package com.wparam.kb.inputmethod.latin.settings;
 
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -22,19 +22,19 @@ import android.content.res.Resources;
 import android.util.Log;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.keyboard.internal.KeySpecParser;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.latin.InputAttributes;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.RichInputMethodManager;
-import com.android.inputmethod.latin.SubtypeSwitcher;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.InputTypeUtils;
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.keyboard.internal.KeySpecParser;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.Dictionary;
+import com.wparam.kb.inputmethod.latin.InputAttributes;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.RichInputMethodManager;
+import com.wparam.kb.inputmethod.latin.SubtypeSwitcher;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.InputTypeUtils;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -42,7 +42,7 @@ import java.util.Locale;
 
 /**
  * When you call the constructor of this class, you may want to change the current system locale by
- * using {@link com.android.inputmethod.latin.utils.RunInLocale}.
+ * using {@link com.wparam.kb.inputmethod.latin.utils.RunInLocale}.
  */
 public final class SettingsValues {
     private static final String TAG = SettingsValues.class.getSimpleName();

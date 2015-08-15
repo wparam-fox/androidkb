@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.ExtraValue.UNTRANSLATABLE_STRING_IN_SUBTYPE_NAME;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -25,8 +25,8 @@ import android.os.Build;
 import android.util.Log;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.latin.DictionaryFactory;
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.DictionaryFactory;
+import com.wparam.kb.inputmethod.latin.R;
 
 import java.util.HashMap;
 import java.util.Locale;

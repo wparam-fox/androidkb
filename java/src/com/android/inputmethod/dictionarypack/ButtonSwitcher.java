@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -25,7 +25,7 @@ import android.view.ViewPropertyAnimator;
 import android.widget.Button;
 import android.widget.FrameLayout;
 
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.R;
 
 /**
  * A view that handles buttons inside it according to a status.

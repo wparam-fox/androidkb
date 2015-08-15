@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.accessibility;
+package com.wparam.kb.inputmethod.accessibility;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -22,12 +22,12 @@ import android.util.Log;
 import android.util.SparseIntArray;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardId;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.KeyboardId;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import java.util.HashMap;
 

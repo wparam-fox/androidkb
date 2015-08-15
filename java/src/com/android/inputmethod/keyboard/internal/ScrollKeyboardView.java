@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -23,11 +23,11 @@ import android.view.MotionEvent;
 import android.widget.ScrollView;
 import android.widget.Scroller;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.KeyDetector;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardView;
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.KeyDetector;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.KeyboardView;
+import com.wparam.kb.inputmethod.latin.R;
 
 /**
  * This is an extended {@link KeyboardView} class that hosts a vertical scroll keyboard.

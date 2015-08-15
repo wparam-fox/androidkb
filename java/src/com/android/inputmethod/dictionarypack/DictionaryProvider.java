@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 import android.content.ContentProvider;
 import android.content.ContentResolver;
@@ -30,8 +30,8 @@ import android.os.ParcelFileDescriptor;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.DebugLogUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.DebugLogUtils;
 
 import java.io.File;
 import java.io.FileNotFoundException;

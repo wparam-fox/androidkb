@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 import java.util.Arrays;
 

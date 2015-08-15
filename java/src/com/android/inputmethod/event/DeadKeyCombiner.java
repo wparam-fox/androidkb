@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.event;
+package com.wparam.kb.inputmethod.event;
 
 import android.text.TextUtils;
 import android.view.KeyCharacterMap;
 
-import com.android.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.Constants;
 
 /**
  * A combiner that handles dead keys.

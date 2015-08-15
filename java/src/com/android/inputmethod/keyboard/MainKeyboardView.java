@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
 import android.animation.AnimatorInflater;
 import android.animation.ObjectAnimator;
@@ -44,32 +44,32 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodSubtype;
 import android.widget.TextView;
 
-import com.android.inputmethod.accessibility.AccessibilityUtils;
-import com.android.inputmethod.accessibility.AccessibleKeyboardViewProxy;
-import com.android.inputmethod.annotations.ExternallyReferenced;
-import com.android.inputmethod.keyboard.PointerTracker.DrawingProxy;
-import com.android.inputmethod.keyboard.PointerTracker.TimerProxy;
-import com.android.inputmethod.keyboard.internal.GestureFloatingPreviewText;
-import com.android.inputmethod.keyboard.internal.GestureTrailsPreview;
-import com.android.inputmethod.keyboard.internal.KeyDrawParams;
-import com.android.inputmethod.keyboard.internal.KeyPreviewDrawParams;
-import com.android.inputmethod.keyboard.internal.NonDistinctMultitouchHelper;
-import com.android.inputmethod.keyboard.internal.PreviewPlacerView;
-import com.android.inputmethod.keyboard.internal.SlidingKeyInputPreview;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethod.latin.settings.DebugSettings;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.CoordinateUtils;
-import com.android.inputmethod.latin.utils.StaticInnerHandlerWrapper;
-import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
-import com.android.inputmethod.latin.utils.TypefaceUtils;
-import com.android.inputmethod.latin.utils.UsabilityStudyLogUtils;
-import com.android.inputmethod.latin.utils.ViewLayoutUtils;
-import com.android.inputmethod.research.ResearchLogger;
+import com.wparam.kb.inputmethod.accessibility.AccessibilityUtils;
+import com.wparam.kb.inputmethod.accessibility.AccessibleKeyboardViewProxy;
+import com.wparam.kb.inputmethod.annotations.ExternallyReferenced;
+import com.wparam.kb.inputmethod.keyboard.PointerTracker.DrawingProxy;
+import com.wparam.kb.inputmethod.keyboard.PointerTracker.TimerProxy;
+import com.wparam.kb.inputmethod.keyboard.internal.GestureFloatingPreviewText;
+import com.wparam.kb.inputmethod.keyboard.internal.GestureTrailsPreview;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyDrawParams;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyPreviewDrawParams;
+import com.wparam.kb.inputmethod.keyboard.internal.NonDistinctMultitouchHelper;
+import com.wparam.kb.inputmethod.keyboard.internal.PreviewPlacerView;
+import com.wparam.kb.inputmethod.keyboard.internal.SlidingKeyInputPreview;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.settings.DebugSettings;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.CoordinateUtils;
+import com.wparam.kb.inputmethod.latin.utils.StaticInnerHandlerWrapper;
+import com.wparam.kb.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.wparam.kb.inputmethod.latin.utils.TypefaceUtils;
+import com.wparam.kb.inputmethod.latin.utils.UsabilityStudyLogUtils;
+import com.wparam.kb.inputmethod.latin.utils.ViewLayoutUtils;
+import com.wparam.kb.inputmethod.research.ResearchLogger;
 
 import java.util.WeakHashMap;
 

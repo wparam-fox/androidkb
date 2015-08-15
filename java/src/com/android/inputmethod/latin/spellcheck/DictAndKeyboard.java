@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package com.wparam.kb.inputmethod.latin.spellcheck;
 
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardId;
-import com.android.inputmethod.keyboard.KeyboardLayoutSet;
-import com.android.inputmethod.keyboard.ProximityInfo;
+import com.wparam.kb.inputmethod.latin.Dictionary;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.KeyboardId;
+import com.wparam.kb.inputmethod.keyboard.KeyboardLayoutSet;
+import com.wparam.kb.inputmethod.keyboard.ProximityInfo;
 
 /**
  * A container for a Dictionary and a Keyboard.

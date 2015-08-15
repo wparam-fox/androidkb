@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package com.wparam.kb.inputmethod.latin.makedict;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.makedict.DictDecoder.DictionaryBufferFactory;
-import com.android.inputmethod.latin.makedict.FusionDictionary.DictionaryOptions;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.makedict.DictDecoder.DictionaryBufferFactory;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.DictionaryOptions;
 
 import java.io.File;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.event;
+package com.wparam.kb.inputmethod.event;
 
 /**
  * Class describing a decoder chain. This will depend on the language and the input medium (soft

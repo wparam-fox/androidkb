@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -26,17 +26,17 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.util.Xml;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardId;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ResourceUtils;
-import com.android.inputmethod.latin.utils.RunInLocale;
-import com.android.inputmethod.latin.utils.StringUtils;
-import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
-import com.android.inputmethod.latin.utils.XmlParseUtils;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.KeyboardId;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.ResourceUtils;
+import com.wparam.kb.inputmethod.latin.utils.RunInLocale;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.wparam.kb.inputmethod.latin.utils.XmlParseUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

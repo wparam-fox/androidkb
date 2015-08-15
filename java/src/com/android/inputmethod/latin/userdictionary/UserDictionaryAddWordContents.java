@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.userdictionary;
+package com.wparam.kb.inputmethod.latin.userdictionary;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -26,9 +26,9 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 
-import com.android.inputmethod.compat.UserDictionaryCompatUtils;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.LocaleUtils;
+import com.wparam.kb.inputmethod.compat.UserDictionaryCompatUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.LocaleUtils;
 
 import java.util.ArrayList;
 import java.util.Locale;

@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 import android.content.Context;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.keyboard.ProximityInfo;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.personalization.PersonalizationDictionary;
-import com.android.inputmethod.latin.personalization.PersonalizationPredictionDictionary;
-import com.android.inputmethod.latin.personalization.UserHistoryDictionary;
-import com.android.inputmethod.latin.settings.Settings;
-import com.android.inputmethod.latin.utils.AutoCorrectionUtils;
-import com.android.inputmethod.latin.utils.BoundedTreeSet;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.keyboard.ProximityInfo;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.personalization.PersonalizationDictionary;
+import com.wparam.kb.inputmethod.latin.personalization.PersonalizationPredictionDictionary;
+import com.wparam.kb.inputmethod.latin.personalization.UserHistoryDictionary;
+import com.wparam.kb.inputmethod.latin.settings.Settings;
+import com.wparam.kb.inputmethod.latin.utils.AutoCorrectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.BoundedTreeSet;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Comparator;

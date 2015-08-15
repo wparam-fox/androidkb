@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
-import com.android.inputmethod.latin.utils.JniUtils;
+import com.wparam.kb.inputmethod.latin.utils.JniUtils;
 
 import java.util.Locale;
 

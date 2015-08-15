@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.util.Log;
 import android.view.MotionEvent;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.PointerTracker;
-import com.android.inputmethod.keyboard.PointerTracker.KeyEventHandler;
-import com.android.inputmethod.latin.utils.CoordinateUtils;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.PointerTracker;
+import com.wparam.kb.inputmethod.keyboard.PointerTracker.KeyEventHandler;
+import com.wparam.kb.inputmethod.latin.utils.CoordinateUtils;
 
 public final class NonDistinctMultitouchHelper {
     private static final String TAG = NonDistinctMultitouchHelper.class.getSimpleName();

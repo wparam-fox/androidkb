@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 import android.content.Context;
 
-import com.android.inputmethod.keyboard.ProximityInfo;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.makedict.DictEncoder;
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.makedict.FusionDictionary;
-import com.android.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
-import com.android.inputmethod.latin.makedict.FusionDictionary.WeightedString;
-import com.android.inputmethod.latin.makedict.UnsupportedFormatException;
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.keyboard.ProximityInfo;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.makedict.DictEncoder;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.PtNodeArray;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.WeightedString;
+import com.wparam.kb.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;

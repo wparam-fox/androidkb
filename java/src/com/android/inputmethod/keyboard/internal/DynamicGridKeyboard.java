@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.SharedPreferences;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.EmojiPalettesView;
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.latin.settings.Settings;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.keyboard.EmojiPalettesView;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.latin.settings.Settings;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

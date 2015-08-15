@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.accessibility;
+package com.wparam.kb.inputmethod.accessibility;
 
 import android.content.Context;
 import android.inputmethodservice.InputMethodService;
@@ -28,12 +28,12 @@ import android.view.View;
 import android.view.ViewParent;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardId;
-import com.android.inputmethod.keyboard.MainKeyboardView;
-import com.android.inputmethod.keyboard.PointerTracker;
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.KeyboardId;
+import com.wparam.kb.inputmethod.keyboard.MainKeyboardView;
+import com.wparam.kb.inputmethod.keyboard.PointerTracker;
+import com.wparam.kb.inputmethod.latin.R;
 
 public final class AccessibleKeyboardViewProxy extends AccessibilityDelegateCompat {
     private static final AccessibleKeyboardViewProxy sInstance = new AccessibleKeyboardViewProxy();

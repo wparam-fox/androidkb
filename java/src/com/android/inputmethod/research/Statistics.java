@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.util.Log;
 
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
 
 import java.util.concurrent.TimeUnit;
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.userdictionary;
+package com.wparam.kb.inputmethod.latin.userdictionary;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.userdictionary.UserDictionaryAddWordContents.LocaleRenderer;
-import com.android.inputmethod.latin.userdictionary.UserDictionaryLocalePicker.LocationChangedListener;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.userdictionary.UserDictionaryAddWordContents.LocaleRenderer;
+import com.wparam.kb.inputmethod.latin.userdictionary.UserDictionaryLocalePicker.LocationChangedListener;
 
 import android.app.Fragment;
 import android.os.Bundle;

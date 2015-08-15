@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.event;
+package com.wparam.kb.inputmethod.event;
 
 import android.util.SparseArray;
 import android.view.KeyEvent;
 
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.LatinIME;
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.LatinIME;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import java.util.ArrayList;
 

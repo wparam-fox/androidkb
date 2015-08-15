@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.event;
+package com.wparam.kb.inputmethod.event;
 
 /**
  * Class representing a generic input event as handled by Latin IME.

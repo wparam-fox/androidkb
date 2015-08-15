@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
 
 public final class TouchPositionCorrection {
     private static final int TOUCH_POSITION_CORRECTION_RECORD_SIZE = 3;

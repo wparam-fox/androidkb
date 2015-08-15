@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -26,19 +26,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.accessibility.AccessibleKeyboardViewProxy;
-import com.android.inputmethod.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
-import com.android.inputmethod.keyboard.internal.KeyboardState;
-import com.android.inputmethod.latin.InputView;
-import com.android.inputmethod.latin.LatinIME;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.RichInputMethodManager;
-import com.android.inputmethod.latin.SubtypeSwitcher;
-import com.android.inputmethod.latin.WordComposer;
-import com.android.inputmethod.latin.settings.Settings;
-import com.android.inputmethod.latin.settings.SettingsValues;
-import com.android.inputmethod.latin.utils.ResourceUtils;
+import com.wparam.kb.inputmethod.accessibility.AccessibleKeyboardViewProxy;
+import com.wparam.kb.inputmethod.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardState;
+import com.wparam.kb.inputmethod.latin.InputView;
+import com.wparam.kb.inputmethod.latin.LatinIME;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.RichInputMethodManager;
+import com.wparam.kb.inputmethod.latin.SubtypeSwitcher;
+import com.wparam.kb.inputmethod.latin.WordComposer;
+import com.wparam.kb.inputmethod.latin.settings.Settings;
+import com.wparam.kb.inputmethod.latin.settings.SettingsValues;
+import com.wparam.kb.inputmethod.latin.utils.ResourceUtils;
 
 public final class KeyboardSwitcher implements KeyboardState.SwitchActions {
     private static final String TAG = KeyboardSwitcher.class.getSimpleName();

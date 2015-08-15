@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package com.wparam.kb.inputmethod.latin.spellcheck;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ApplicationUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.ApplicationUtils;
 
 /**
  * Preference screen.

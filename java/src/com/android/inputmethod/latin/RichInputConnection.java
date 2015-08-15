@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 import android.inputmethodservice.InputMethodService;
 import android.text.TextUtils;
@@ -26,14 +26,14 @@ import android.view.inputmethod.ExtractedText;
 import android.view.inputmethod.ExtractedTextRequest;
 import android.view.inputmethod.InputConnection;
 
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethod.latin.settings.SettingsValues;
-import com.android.inputmethod.latin.utils.CapsModeUtils;
-import com.android.inputmethod.latin.utils.DebugLogUtils;
-import com.android.inputmethod.latin.utils.SpannableStringUtils;
-import com.android.inputmethod.latin.utils.StringUtils;
-import com.android.inputmethod.latin.utils.TextRange;
-import com.android.inputmethod.research.ResearchLogger;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.settings.SettingsValues;
+import com.wparam.kb.inputmethod.latin.utils.CapsModeUtils;
+import com.wparam.kb.inputmethod.latin.utils.DebugLogUtils;
+import com.wparam.kb.inputmethod.latin.utils.SpannableStringUtils;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.latin.utils.TextRange;
+import com.wparam.kb.inputmethod.research.ResearchLogger;
 
 import java.util.Locale;
 import java.util.regex.Pattern;

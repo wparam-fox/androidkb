@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -24,9 +24,9 @@ import android.graphics.Path;
 import android.graphics.Rect;
 import android.os.SystemClock;
 
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ResizableIntArray;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.ResizableIntArray;
 
 /*
  * @attr ref R.styleable#MainKeyboardView_gestureTrailFadeoutStartDelay

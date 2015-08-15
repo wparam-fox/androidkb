@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -24,8 +24,8 @@ import android.graphics.PorterDuffXfermode;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
 
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.CoordinateUtils;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.CoordinateUtils;
 
 import java.util.ArrayList;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.userdictionary;
+package com.wparam.kb.inputmethod.latin.userdictionary;
 
 import android.app.Fragment;
 

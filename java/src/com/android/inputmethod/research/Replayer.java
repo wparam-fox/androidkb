@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.os.Handler;
 import android.os.Looper;
@@ -25,10 +25,10 @@ import android.view.MotionEvent;
 import android.view.MotionEvent.PointerCoords;
 import android.view.MotionEvent.PointerProperties;
 
-import com.android.inputmethod.keyboard.KeyboardSwitcher;
-import com.android.inputmethod.keyboard.MainKeyboardView;
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethod.research.MotionEventReader.ReplayData;
+import com.wparam.kb.inputmethod.keyboard.KeyboardSwitcher;
+import com.wparam.kb.inputmethod.keyboard.MainKeyboardView;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.research.MotionEventReader.ReplayData;
 
 /**
  * Replays a sequence of motion events in realtime on the screen.

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.utils.ResizableIntArray;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.utils.ResizableIntArray;
 
 import android.util.Log;
 

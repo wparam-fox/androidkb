@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.Manifest;
 import android.content.Context;
@@ -27,8 +27,8 @@ import android.os.BatteryManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
 
 import java.io.BufferedReader;
 import java.io.File;

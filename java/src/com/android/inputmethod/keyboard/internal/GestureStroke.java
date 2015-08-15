@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.util.Log;
 
-import com.android.inputmethod.latin.InputPointers;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ResizableIntArray;
-import com.android.inputmethod.latin.utils.ResourceUtils;
+import com.wparam.kb.inputmethod.latin.InputPointers;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.ResizableIntArray;
+import com.wparam.kb.inputmethod.latin.utils.ResourceUtils;
 
 public class GestureStroke {
     private static final String TAG = GestureStroke.class.getSimpleName();

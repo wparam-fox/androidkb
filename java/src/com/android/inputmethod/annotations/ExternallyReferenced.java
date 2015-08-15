@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.annotations;
+package com.wparam.kb.inputmethod.annotations;
 
 /**
  * Denotes that the class, method or field should not be eliminated by ProGuard,

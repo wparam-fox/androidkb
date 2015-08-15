@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.settings;
+package com.wparam.kb.inputmethod.latin.settings;
 
 public class NativeSuggestOptions {
     // Need to update suggest_options.h when you add, remove or reorder options.

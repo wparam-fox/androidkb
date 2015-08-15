@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 import java.io.InputStream;
 import java.io.IOException;

@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 import android.app.DownloadManager;
 import android.app.DownloadManager.Request;
@@ -26,10 +26,10 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.compat.DownloadManagerCompatUtils;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ApplicationUtils;
-import com.android.inputmethod.latin.utils.DebugLogUtils;
+import com.wparam.kb.inputmethod.compat.DownloadManagerCompatUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.ApplicationUtils;
+import com.wparam.kb.inputmethod.latin.utils.DebugLogUtils;
 
 import java.util.LinkedList;
 import java.util.Queue;

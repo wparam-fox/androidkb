@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
-import com.android.inputmethod.latin.personalization.AccountUtils;
+import com.wparam.kb.inputmethod.latin.personalization.AccountUtils;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -31,7 +31,7 @@ import android.provider.ContactsContract.Contacts;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 import java.util.List;
 import java.util.Locale;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.event;
+package com.wparam.kb.inputmethod.event;
 
 /**
  * A generic interface for event decoders.

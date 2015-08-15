@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
-import com.android.inputmethod.keyboard.ProximityInfo;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.keyboard.ProximityInfo;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
 
 import java.util.ArrayList;
 

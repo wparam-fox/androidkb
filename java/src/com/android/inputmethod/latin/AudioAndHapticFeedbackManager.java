@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
-import com.android.inputmethod.latin.settings.SettingsValues;
+import com.wparam.kb.inputmethod.latin.settings.SettingsValues;
 
 import android.content.Context;
 import android.media.AudioManager;

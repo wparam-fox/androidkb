@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.compat;
+package com.wparam.kb.inputmethod.compat;
 
 import android.view.textservice.SuggestionsInfo;
 

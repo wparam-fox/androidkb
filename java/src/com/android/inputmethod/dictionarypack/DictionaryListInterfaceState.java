@@ -14,11 +14,11 @@
  * under the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 import android.view.View;
 
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

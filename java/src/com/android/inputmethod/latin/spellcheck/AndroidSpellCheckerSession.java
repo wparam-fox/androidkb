@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package com.wparam.kb.inputmethod.latin.spellcheck;
 
 import android.os.Binder;
 import android.text.TextUtils;
@@ -23,7 +23,7 @@ import android.view.textservice.SentenceSuggestionsInfo;
 import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import java.util.ArrayList;
 

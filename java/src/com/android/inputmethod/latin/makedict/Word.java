@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package com.wparam.kb.inputmethod.latin.makedict;
 
-import com.android.inputmethod.latin.makedict.FusionDictionary.WeightedString;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.WeightedString;
 
 import java.util.ArrayList;
 import java.util.Arrays;

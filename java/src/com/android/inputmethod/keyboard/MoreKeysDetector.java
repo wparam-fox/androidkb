@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
 public final class MoreKeysDetector extends KeyDetector {
     private final int mSlideAllowanceSquare;

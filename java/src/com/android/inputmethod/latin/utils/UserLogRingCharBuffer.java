@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
 import android.inputmethodservice.InputMethodService;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.settings.Settings;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.settings.Settings;
 
 public final class UserLogRingCharBuffer {
     public /* for test */ static final int BUFSIZE = 20;

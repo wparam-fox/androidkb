@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
@@ -29,9 +29,9 @@ import android.provider.UserDictionary.Words;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.compat.UserDictionaryCompatUtils;
-import com.android.inputmethod.latin.utils.LocaleUtils;
-import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.wparam.kb.inputmethod.compat.UserDictionaryCompatUtils;
+import com.wparam.kb.inputmethod.latin.utils.LocaleUtils;
+import com.wparam.kb.inputmethod.latin.utils.SubtypeLocaleUtils;
 
 import java.util.Arrays;
 import java.util.Locale;

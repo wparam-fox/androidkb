@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.makedict;
+package com.wparam.kb.inputmethod.latin.makedict;
 
-import com.android.inputmethod.latin.makedict.FormatSpec.FormatOptions;
-import com.android.inputmethod.latin.makedict.FusionDictionary.PtNode;
+import com.wparam.kb.inputmethod.latin.makedict.FormatSpec.FormatOptions;
+import com.wparam.kb.inputmethod.latin.makedict.FusionDictionary.PtNode;
 
 import java.io.IOException;
 

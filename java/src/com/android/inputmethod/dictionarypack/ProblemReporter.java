@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 /**
  * A simple interface to report problems.

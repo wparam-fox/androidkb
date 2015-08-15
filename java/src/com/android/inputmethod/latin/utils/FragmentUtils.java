@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
-import com.android.inputmethod.dictionarypack.DictionarySettingsFragment;
-import com.android.inputmethod.latin.about.AboutPreferences;
-import com.android.inputmethod.latin.settings.AdditionalSubtypeSettings;
-import com.android.inputmethod.latin.settings.DebugSettings;
-import com.android.inputmethod.latin.settings.SettingsFragment;
-import com.android.inputmethod.latin.spellcheck.SpellCheckerSettingsFragment;
-import com.android.inputmethod.latin.userdictionary.UserDictionaryAddWordFragment;
-import com.android.inputmethod.latin.userdictionary.UserDictionaryList;
-import com.android.inputmethod.latin.userdictionary.UserDictionaryLocalePicker;
-import com.android.inputmethod.latin.userdictionary.UserDictionarySettings;
-import com.android.inputmethod.research.FeedbackFragment;
+import com.wparam.kb.inputmethod.dictionarypack.DictionarySettingsFragment;
+import com.wparam.kb.inputmethod.latin.about.AboutPreferences;
+import com.wparam.kb.inputmethod.latin.settings.AdditionalSubtypeSettings;
+import com.wparam.kb.inputmethod.latin.settings.DebugSettings;
+import com.wparam.kb.inputmethod.latin.settings.SettingsFragment;
+import com.wparam.kb.inputmethod.latin.spellcheck.SpellCheckerSettingsFragment;
+import com.wparam.kb.inputmethod.latin.userdictionary.UserDictionaryAddWordFragment;
+import com.wparam.kb.inputmethod.latin.userdictionary.UserDictionaryList;
+import com.wparam.kb.inputmethod.latin.userdictionary.UserDictionaryLocalePicker;
+import com.wparam.kb.inputmethod.latin.userdictionary.UserDictionarySettings;
+import com.wparam.kb.inputmethod.research.FeedbackFragment;
 
 import java.util.HashSet;
 

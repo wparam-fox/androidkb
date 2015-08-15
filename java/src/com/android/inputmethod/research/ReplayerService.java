@@ -14,13 +14,13 @@
  * the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
 
-import com.android.inputmethod.research.MotionEventReader.ReplayData;
+import com.wparam.kb.inputmethod.research.MotionEventReader.ReplayData;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -32,7 +32,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ReplayerService extends IntentService {
     private static final String TAG = ReplayerService.class.getSimpleName();
-    private static final String EXTRA_FILENAME = "com.android.inputmethod.research.extra.FILENAME";
+    private static final String EXTRA_FILENAME = "com.wparam.kb.inputmethod.research.extra.FILENAME";
     private static final long MAX_REPLAY_TIME = TimeUnit.SECONDS.toMillis(60);
 
     public ReplayerService() {

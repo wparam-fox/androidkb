@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
-import com.android.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
 
 import android.util.Log;
 

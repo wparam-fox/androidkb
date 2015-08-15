@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 import android.app.DownloadManager;
 import android.app.DownloadManager.Query;

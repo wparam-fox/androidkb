@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
-import static com.android.inputmethod.latin.Constants.NOT_A_COORDINATE;
+import static com.wparam.kb.inputmethod.latin.Constants.NOT_A_COORDINATE;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -43,15 +43,15 @@ import android.widget.TabHost;
 import android.widget.TabHost.OnTabChangeListener;
 import android.widget.TextView;
 
-import com.android.inputmethod.keyboard.internal.DynamicGridKeyboard;
-import com.android.inputmethod.keyboard.internal.ScrollKeyboardView;
-import com.android.inputmethod.keyboard.internal.ScrollViewWithNotifier;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SubtypeSwitcher;
-import com.android.inputmethod.latin.settings.Settings;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.ResourceUtils;
+import com.wparam.kb.inputmethod.keyboard.internal.DynamicGridKeyboard;
+import com.wparam.kb.inputmethod.keyboard.internal.ScrollKeyboardView;
+import com.wparam.kb.inputmethod.keyboard.internal.ScrollViewWithNotifier;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SubtypeSwitcher;
+import com.wparam.kb.inputmethod.latin.settings.Settings;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.ResourceUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

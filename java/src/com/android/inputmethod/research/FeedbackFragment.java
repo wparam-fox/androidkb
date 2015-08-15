@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -30,7 +30,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.R;
 
 public class FeedbackFragment extends Fragment implements OnClickListener {
     private static final String TAG = FeedbackFragment.class.getSimpleName();

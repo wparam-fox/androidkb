@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.wparam.kb.inputmethod.latin.utils;
 
 import java.util.Locale;
 

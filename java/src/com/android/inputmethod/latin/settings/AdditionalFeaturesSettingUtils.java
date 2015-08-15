@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.settings;
+package com.wparam.kb.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.android.inputmethodcommon.InputMethodSettingsFragment;
+import com.wparam.kb.inputmethodcommon.InputMethodSettingsFragment;
 
 /**
  * Utility class for managing additional features settings.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 public final class Constants {
     public static final class Color {
@@ -153,7 +153,7 @@ public final class Constants {
 
     /**
      * Custom request code used in
-     * {@link com.android.inputmethod.keyboard.KeyboardActionListener#onCustomRequest(int)}.
+     * {@link com.wparam.kb.inputmethod.keyboard.KeyboardActionListener#onCustomRequest(int)}.
      */
     // The code to show input method picker.
     public static final int CUSTOM_CODE_SHOW_INPUT_METHOD_PICKER = 1;

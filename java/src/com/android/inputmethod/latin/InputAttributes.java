@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
 import android.text.InputType;
 import android.util.Log;
 import android.view.inputmethod.EditorInfo;
 
-import com.android.inputmethod.latin.utils.InputTypeUtils;
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.latin.utils.InputTypeUtils;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 /**
  * Class to hold attributes of the input field.

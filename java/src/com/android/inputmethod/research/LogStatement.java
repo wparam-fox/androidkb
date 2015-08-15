@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
 import android.content.SharedPreferences;
 import android.util.JsonWriter;
@@ -22,9 +22,9 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.inputmethod.CompletionInfo;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
 
 import java.io.IOException;
 

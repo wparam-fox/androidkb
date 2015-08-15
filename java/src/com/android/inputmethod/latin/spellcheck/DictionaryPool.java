@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package com.wparam.kb.inputmethod.latin.spellcheck;
 
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.ProximityInfo;
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.WordComposer;
-import com.android.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.keyboard.ProximityInfo;
+import com.wparam.kb.inputmethod.latin.Dictionary;
+import com.wparam.kb.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.wparam.kb.inputmethod.latin.WordComposer;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.Locale;

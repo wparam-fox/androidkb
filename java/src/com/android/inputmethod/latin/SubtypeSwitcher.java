@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.wparam.kb.inputmethod.latin;
 
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.REQ_NETWORK_CONNECTIVITY;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.ExtraValue.REQ_NETWORK_CONNECTIVITY;
 
 import android.content.Context;
 import android.content.Intent;
@@ -31,9 +31,9 @@ import android.view.inputmethod.InputMethodInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.keyboard.KeyboardSwitcher;
-import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.wparam.kb.inputmethod.annotations.UsedForTesting;
+import com.wparam.kb.inputmethod.keyboard.KeyboardSwitcher;
+import com.wparam.kb.inputmethod.latin.utils.SubtypeLocaleUtils;
 
 import java.util.List;
 import java.util.Locale;

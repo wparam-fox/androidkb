@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.research;
+package com.wparam.kb.inputmethod.research;
 
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -45,24 +45,24 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.widget.Toast;
 
-import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.keyboard.KeyboardId;
-import com.android.inputmethod.keyboard.KeyboardSwitcher;
-import com.android.inputmethod.keyboard.KeyboardView;
-import com.android.inputmethod.keyboard.MainKeyboardView;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.latin.LatinIME;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.RichInputConnection;
-import com.android.inputmethod.latin.Suggest;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethod.latin.utils.InputTypeUtils;
-import com.android.inputmethod.latin.utils.TextRange;
-import com.android.inputmethod.research.MotionEventReader.ReplayData;
-import com.android.inputmethod.research.ui.SplashScreen;
+import com.wparam.kb.inputmethod.keyboard.Key;
+import com.wparam.kb.inputmethod.keyboard.Keyboard;
+import com.wparam.kb.inputmethod.keyboard.KeyboardId;
+import com.wparam.kb.inputmethod.keyboard.KeyboardSwitcher;
+import com.wparam.kb.inputmethod.keyboard.KeyboardView;
+import com.wparam.kb.inputmethod.keyboard.MainKeyboardView;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.Dictionary;
+import com.wparam.kb.inputmethod.latin.LatinIME;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.RichInputConnection;
+import com.wparam.kb.inputmethod.latin.Suggest;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.utils.InputTypeUtils;
+import com.wparam.kb.inputmethod.latin.utils.TextRange;
+import com.wparam.kb.inputmethod.research.MotionEventReader.ReplayData;
+import com.wparam.kb.inputmethod.research.ui.SplashScreen;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.suggestions;
+package com.wparam.kb.inputmethod.latin.suggestions;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -45,12 +45,12 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.utils.AutoCorrectionUtils;
-import com.android.inputmethod.latin.utils.ResourceUtils;
-import com.android.inputmethod.latin.utils.ViewLayoutUtils;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SuggestedWords;
+import com.wparam.kb.inputmethod.latin.utils.AutoCorrectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.ResourceUtils;
+import com.wparam.kb.inputmethod.latin.utils.ViewLayoutUtils;
 
 import java.util.ArrayList;
 

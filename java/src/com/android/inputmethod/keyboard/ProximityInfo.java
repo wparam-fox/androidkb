@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
 import android.graphics.Rect;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.keyboard.internal.TouchPositionCorrection;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.utils.JniUtils;
+import com.wparam.kb.inputmethod.keyboard.internal.TouchPositionCorrection;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.utils.JniUtils;
 
 import java.util.Arrays;
 

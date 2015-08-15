@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
-import static com.android.inputmethod.keyboard.internal.KeyboardIconsSet.ICON_UNDEFINED;
-import static com.android.inputmethod.latin.Constants.CODE_OUTPUT_TEXT;
-import static com.android.inputmethod.latin.Constants.CODE_SHIFT;
-import static com.android.inputmethod.latin.Constants.CODE_SWITCH_ALPHA_SYMBOL;
-import static com.android.inputmethod.latin.Constants.CODE_UNSPECIFIED;
+import static com.wparam.kb.inputmethod.keyboard.internal.KeyboardIconsSet.ICON_UNDEFINED;
+import static com.wparam.kb.inputmethod.latin.Constants.CODE_OUTPUT_TEXT;
+import static com.wparam.kb.inputmethod.latin.Constants.CODE_SHIFT;
+import static com.wparam.kb.inputmethod.latin.Constants.CODE_SWITCH_ALPHA_SYMBOL;
+import static com.wparam.kb.inputmethod.latin.Constants.CODE_UNSPECIFIED;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -31,17 +31,17 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Xml;
 
-import com.android.inputmethod.keyboard.internal.KeyDrawParams;
-import com.android.inputmethod.keyboard.internal.KeySpecParser;
-import com.android.inputmethod.keyboard.internal.KeyStyle;
-import com.android.inputmethod.keyboard.internal.KeyVisualAttributes;
-import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
-import com.android.inputmethod.keyboard.internal.KeyboardParams;
-import com.android.inputmethod.keyboard.internal.KeyboardRow;
-import com.android.inputmethod.keyboard.internal.MoreKeySpec;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyDrawParams;
+import com.wparam.kb.inputmethod.keyboard.internal.KeySpecParser;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyStyle;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyVisualAttributes;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardIconsSet;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardParams;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyboardRow;
+import com.wparam.kb.inputmethod.keyboard.internal.MoreKeySpec;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

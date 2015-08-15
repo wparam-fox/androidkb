@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.about;
+package com.wparam.kb.inputmethod.latin.about;
 
 import android.app.Fragment;
 

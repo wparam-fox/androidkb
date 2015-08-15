@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.settings;
+package com.wparam.kb.inputmethod.latin.settings;
 
-import static com.android.inputmethod.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
+import static com.wparam.kb.inputmethod.latin.Constants.Subtype.ExtraValue.ASCII_CAPABLE;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -44,12 +44,12 @@ import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 import android.widget.Toast;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.RichInputMethodManager;
-import com.android.inputmethod.latin.utils.AdditionalSubtypeUtils;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.IntentUtils;
-import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.RichInputMethodManager;
+import com.wparam.kb.inputmethod.latin.utils.AdditionalSubtypeUtils;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.IntentUtils;
+import com.wparam.kb.inputmethod.latin.utils.SubtypeLocaleUtils;
 
 import java.util.ArrayList;
 import java.util.TreeSet;

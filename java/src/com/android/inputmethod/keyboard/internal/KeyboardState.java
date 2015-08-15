@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.utils.RecapitalizeStatus;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.utils.RecapitalizeStatus;
 
 /**
  * Keyboard state machine.

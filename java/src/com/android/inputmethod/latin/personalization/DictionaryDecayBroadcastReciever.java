@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.personalization;
+package com.wparam.kb.inputmethod.latin.personalization;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -32,7 +32,7 @@ public class DictionaryDecayBroadcastReciever extends BroadcastReceiver {
      * The root domain for the personalization.
      */
     private static final String PERSONALIZATION_DOMAIN =
-            "com.android.inputmethod.latin.personalization";
+            "com.wparam.kb.inputmethod.latin.personalization";
 
     /**
      * The action of the intent to tell the time to decay dictionaries.

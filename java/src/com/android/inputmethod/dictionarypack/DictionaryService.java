@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.inputmethod.dictionarypack;
+package com.wparam.kb.inputmethod.dictionarypack;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -24,7 +24,7 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.widget.Toast;
 
-import com.android.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.R;
 
 import java.util.Locale;
 import java.util.Random;
@@ -53,7 +53,7 @@ public final class DictionaryService extends Service {
     /**
      * The package name, to use in the intent actions.
      */
-    private static final String PACKAGE_NAME = "com.android.inputmethod.latin";
+    private static final String PACKAGE_NAME = "com.wparam.kb.inputmethod.latin";
 
     /**
      * The action of the date changing, used to schedule a periodic freshness check

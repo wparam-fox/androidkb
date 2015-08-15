@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard;
+package com.wparam.kb.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -31,15 +31,15 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.android.inputmethod.keyboard.internal.KeyDrawParams;
-import com.android.inputmethod.keyboard.internal.KeyVisualAttributes;
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.define.ProductionFlag;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.TypefaceUtils;
-import com.android.inputmethod.research.ResearchLogger;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyDrawParams;
+import com.wparam.kb.inputmethod.keyboard.internal.KeyVisualAttributes;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.define.ProductionFlag;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.TypefaceUtils;
+import com.wparam.kb.inputmethod.research.ResearchLogger;
 
 import java.util.HashSet;
 

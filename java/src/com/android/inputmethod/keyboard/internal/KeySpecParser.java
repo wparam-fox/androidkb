@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.keyboard.internal;
+package com.wparam.kb.inputmethod.keyboard.internal;
 
-import static com.android.inputmethod.latin.Constants.CODE_OUTPUT_TEXT;
-import static com.android.inputmethod.latin.Constants.CODE_UNSPECIFIED;
+import static com.wparam.kb.inputmethod.latin.Constants.CODE_OUTPUT_TEXT;
+import static com.wparam.kb.inputmethod.latin.Constants.CODE_UNSPECIFIED;
 
 import android.text.TextUtils;
 
-import com.android.inputmethod.latin.Constants;
-import com.android.inputmethod.latin.LatinImeLogger;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.latin.Constants;
+import com.wparam.kb.inputmethod.latin.LatinImeLogger;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

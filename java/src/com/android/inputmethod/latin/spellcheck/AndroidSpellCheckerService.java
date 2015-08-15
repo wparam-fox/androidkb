@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.spellcheck;
+package com.wparam.kb.inputmethod.latin.spellcheck;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -26,20 +26,20 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
 import android.view.textservice.SuggestionsInfo;
 
-import com.android.inputmethod.keyboard.KeyboardLayoutSet;
-import com.android.inputmethod.latin.BinaryDictionary;
-import com.android.inputmethod.latin.ContactsBinaryDictionary;
-import com.android.inputmethod.latin.Dictionary;
-import com.android.inputmethod.latin.DictionaryCollection;
-import com.android.inputmethod.latin.DictionaryFactory;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SynchronouslyLoadedContactsBinaryDictionary;
-import com.android.inputmethod.latin.SynchronouslyLoadedUserBinaryDictionary;
-import com.android.inputmethod.latin.UserBinaryDictionary;
-import com.android.inputmethod.latin.utils.AdditionalSubtypeUtils;
-import com.android.inputmethod.latin.utils.CollectionUtils;
-import com.android.inputmethod.latin.utils.LocaleUtils;
-import com.android.inputmethod.latin.utils.StringUtils;
+import com.wparam.kb.inputmethod.keyboard.KeyboardLayoutSet;
+import com.wparam.kb.inputmethod.latin.BinaryDictionary;
+import com.wparam.kb.inputmethod.latin.ContactsBinaryDictionary;
+import com.wparam.kb.inputmethod.latin.Dictionary;
+import com.wparam.kb.inputmethod.latin.DictionaryCollection;
+import com.wparam.kb.inputmethod.latin.DictionaryFactory;
+import com.wparam.kb.inputmethod.latin.R;
+import com.wparam.kb.inputmethod.latin.SynchronouslyLoadedContactsBinaryDictionary;
+import com.wparam.kb.inputmethod.latin.SynchronouslyLoadedUserBinaryDictionary;
+import com.wparam.kb.inputmethod.latin.UserBinaryDictionary;
+import com.wparam.kb.inputmethod.latin.utils.AdditionalSubtypeUtils;
+import com.wparam.kb.inputmethod.latin.utils.CollectionUtils;
+import com.wparam.kb.inputmethod.latin.utils.LocaleUtils;
+import com.wparam.kb.inputmethod.latin.utils.StringUtils;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
