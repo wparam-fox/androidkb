@@ -155,7 +155,7 @@ public final class EmojiPalettesView extends LinearLayout implements OnTabChange
                 mCategoryNameToIdMap.put(sCategoryName[i], i);
             }
             addShownCategoryId(CATEGORY_ID_RECENTS);
-            if (Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR2
+            if (Build.VERSION.SDK_INT > 18/*Build.VERSION_CODES.JELLY_BEAN_MR2*/
                     || android.os.Build.VERSION.CODENAME.equalsIgnoreCase("KeyLimePie")
                     || android.os.Build.VERSION.CODENAME.equalsIgnoreCase("KitKat")) {
                 addShownCategoryId(CATEGORY_ID_PEOPLE);
