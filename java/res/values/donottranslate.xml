@@ -167,46 +167,7 @@
         <item>qwertytall</item>
 	<item>en_USSM:TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
         <item>qwertysmall</item>
-        <item>en_GB:TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwerty</item>
-        <item>ar:SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>arabic</item>
-        <item>cs:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwertz</item>
-        <item>da:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>nordic</item>
-        <item>de:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwertz</item>
-        <item>es:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>spanish</item>
-        <item>fi:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>nordic</item>
-        <item>fr:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>azerty</item>
-        <item>fr_CA:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwerty</item>
-        <item>hr:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwertz</item>
-        <item>hu:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwertz</item>
-        <item>it:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwerty</item>
-        <item>iw:SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>hebrew</item>
-        <item>nb:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>nordic</item>
-        <item>nl:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwerty</item>
-        <item>pl:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwerty</item>
-        <item>ru:SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>east_slavic</item>
-        <item>sr:SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>south_slavic</item>
-        <item>sv:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>nordic</item>
-        <item>tr:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
-        <item>qwerty</item>
+
     </string-array>
 
     <string name="settings_warning_researcher_mode">Attention!  You are using the special keyboard for research purposes.</string>
