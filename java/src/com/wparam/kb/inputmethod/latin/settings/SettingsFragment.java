@@ -200,7 +200,7 @@ public final class SettingsFragment extends InputMethodSettingsFragment
                     Settings.readKeyPreviewPopupEnabled(prefs, res));
         }
 
-        if (!res.getBoolean(R.bool.config_setup_wizard_available)) {
+        if (!false/*res.getBoolean(R.bool.config_setup_wizard_available)*/) {
             removePreference(Settings.PREF_SHOW_SETUP_WIZARD_ICON, advancedSettings);
         }
 
