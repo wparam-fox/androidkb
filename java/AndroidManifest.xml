@@ -66,13 +66,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".setup.SetupWizardActivity"
+	<!--<activity android:name=".setup.SetupWizardActivity"
                 android:label="@string/english_ime_name"
                 android:clearTaskOnLaunch="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
-        </activity>
+	</activity>-->
 
         <receiver android:name=".setup.LauncherIconVisibilityManager">
             <intent-filter>
