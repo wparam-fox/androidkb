@@ -262,7 +262,7 @@ public final class KeyboardTextsSet {
         EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY,
         EMPTY,
         /* ~13 */
-        /* 14 */ "!fixedColumnOrder!4,8D,:D,:3,>:3,>:D,D:<,:O,:),XD,X3",
+        /* 14 */ "!fixedColumnOrder!4,^^;;,^^,^///^,^__^,D:,D:<,:D,>:D,<3,>:3,://3,;_;",
         /* 15~ */
         EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY,
         EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY, EMPTY,
