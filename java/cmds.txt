@@ -1,0 +1,14 @@
+Find unused kbd_* files
+
+First remove the keyboard_layout_* files we don't want.
+
+Then:
+for n in kbd_* ; do if grep ${n%%.xml} keyboard_layout_set_* > /dev/null ; then echo $n found ; else printf "%s \e[01;31mnotfound\e[m\n" "$n" ; fi ; done
+
+Then:
+for n in rows_* ; do if grep ${n%%.xml} * > /dev/null ; then echo $n found ; else printf "%s \e[01;31mnotfound\e[m\n" "$n" ; fi ; done
+
+Then:
+for n in rowkeys_* ; do if grep ${n%%.xml} * > /dev/null ; then echo $n found ; else printf "%s \e[01;31mnotfound\e[m\n" "$n" ; fi ; done
+
+
