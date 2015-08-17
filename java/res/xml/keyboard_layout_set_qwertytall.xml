@@ -26,7 +26,7 @@
         latin:enableProximityCharsCorrection="true" />
     <Element
         latin:elementName="symbols"
-        latin:elementKeyboard="@xml/kbd_symbols" />
+        latin:elementKeyboard="@xml/kbd_symbolstall" />
     <Element
         latin:elementName="symbolsShifted"
         latin:elementKeyboard="@xml/kbd_symbols_shift" />
