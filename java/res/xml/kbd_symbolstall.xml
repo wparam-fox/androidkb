@@ -22,12 +22,7 @@
     xmlns:latin="http://schemas.android.com/apk/res/com.wparam.kb.inputmethod.latin"
     latin:touchPositionCorrectionData="@array/touch_position_correction_data_default"
 >
-<Row
-        latin:keyWidth="10%p"
-    >
-        <include
-            latin:keyboardLayout="@xml/rowkeys_qwertyta0" />
-    </Row>
+
     <include
-        latin:keyboardLayout="@xml/rows_symbols" />
+        latin:keyboardLayout="@xml/rows_symbolstall" />
 </Keyboard>
