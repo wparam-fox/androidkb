@@ -11,4 +11,6 @@ for n in rows_* ; do if grep ${n%%.xml} * > /dev/null ; then echo $n found ; els
 Then:
 for n in rowkeys_* ; do if grep ${n%%.xml} * > /dev/null ; then echo $n found ; else printf "%s \e[01;31mnotfound\e[m\n" "$n" ; fi ; done
 
+Then:
+for n in key_* ; do if grep ${n%%.xml} * > /dev/null ; then echo $n found ; else printf "%s \e[01;31mnotfound\e[m\n" "$n" ; rm $n ; fi ; done
 
