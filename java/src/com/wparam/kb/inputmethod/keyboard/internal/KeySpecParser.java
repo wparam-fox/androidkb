@@ -18,6 +18,7 @@ package com.wparam.kb.inputmethod.keyboard.internal;
 
 import static com.wparam.kb.inputmethod.latin.Constants.CODE_OUTPUT_TEXT;
 import static com.wparam.kb.inputmethod.latin.Constants.CODE_UNSPECIFIED;
+import static com.wparam.kb.inputmethod.latin.Constants.CODE_RAW;
 
 import android.text.TextUtils;
 
@@ -59,6 +60,7 @@ public final class KeySpecParser {
     private static final String PREFIX_TEXT = "!text/";
     static final String PREFIX_ICON = "!icon/";
     private static final String PREFIX_CODE = "!code/";
+    private static final String PREFIX_RAW = "!raw/";
     private static final String PREFIX_HEX = "0x";
     private static final String ADDITIONAL_MORE_KEY_MARKER = "%";
 
@@ -245,11 +247,21 @@ public final class KeySpecParser {
         return CODE_OUTPUT_TEXT;
     }
 
+    public static int parseRaw(final String text)
+    {
+        if (!text.startsWith(PREFIX_RAW))
+            return CODE_UNSPECIFIED;
+
+        return CODE_RAW - Integer.parseInt(text.substring(PREFIX_HEX.length() + PREFIX_RAW.length()), 16);
+    }
+
     public static int parseCode(final String text, final KeyboardCodesSet codesSet,
             final int defCode) {
         if (text == null) return defCode;
         if (text.startsWith(PREFIX_CODE)) {
             return codesSet.getCode(text.substring(PREFIX_CODE.length()));
+        } else if (text.startsWith(PREFIX_RAW)) {
+            return parseRaw(text);
         } else if (text.startsWith(PREFIX_HEX)) {
             return Integer.parseInt(text.substring(PREFIX_HEX.length()), 16);
         } else {

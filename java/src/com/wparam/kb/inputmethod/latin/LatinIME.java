@@ -1602,6 +1602,17 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             mDeleteCount = 0;
         }
         mLastKeyTime = when;
+        if (primaryCode <= Constants.CODE_RAW)
+        {
+            int code = (primaryCode - Constants.CODE_RAW) * -1;
+
+            //Log.d(TAG, "We have actual keycode: " + Integer.toString(code, 16));
+
+            sendDownUpKeyEvent(code);
+
+            return;
+        }
+
         mConnection.beginBatchEdit();
         final KeyboardSwitcher switcher = mKeyboardSwitcher;
         // The space state depends only on the last character pressed and its own previous
