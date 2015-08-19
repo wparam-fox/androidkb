@@ -1569,6 +1569,16 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 KeyEvent.FLAG_SOFT_KEYBOARD | KeyEvent.FLAG_KEEP_TOUCH_MODE));
     }
 
+    private void sendDownUpKeyEvent(final int code, int meta) {
+        final long eventTime = SystemClock.uptimeMillis();
+        mConnection.sendKeyEvent(new KeyEvent(eventTime, eventTime,
+                KeyEvent.ACTION_DOWN, code, 0, meta, KeyCharacterMap.VIRTUAL_KEYBOARD, 0,
+                KeyEvent.FLAG_SOFT_KEYBOARD | KeyEvent.FLAG_KEEP_TOUCH_MODE));
+        mConnection.sendKeyEvent(new KeyEvent(SystemClock.uptimeMillis(), eventTime,
+                KeyEvent.ACTION_UP, code, 0, meta, KeyCharacterMap.VIRTUAL_KEYBOARD, 0,
+                KeyEvent.FLAG_SOFT_KEYBOARD | KeyEvent.FLAG_KEEP_TOUCH_MODE));
+    }
+
     private void sendKeyCodePoint(final int code) {
         if (ProductionFlag.USES_DEVELOPMENT_ONLY_DIAGNOSTICS) {
             ResearchLogger.latinIME_sendKeyCodePoint(code);
@@ -1602,7 +1612,15 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             mDeleteCount = 0;
         }
         mLastKeyTime = when;
-        if (primaryCode <= Constants.CODE_RAW)
+        if (primaryCode <= Constants.CODE_CRAW)
+        {
+            int code = (primaryCode - Constants.CODE_CRAW) * -1;
+
+            sendDownUpKeyEvent(code, KeyEvent.META_CTRL_ON);
+
+            return;
+        }
+        else if (primaryCode <= Constants.CODE_RAW)
         {
             int code = (primaryCode - Constants.CODE_RAW) * -1;
 
