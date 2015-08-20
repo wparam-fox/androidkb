@@ -26,7 +26,7 @@
             latin:languageSwitchKeyEnabled="true"
         >
             <Key
-                latin:keyStyle="languageSwitchKeyStyle" />
+                latin:keyStyle="tabKeyStyle" />
             <Key
                 latin:keyStyle="spaceKeyStyle"
                 latin:keyWidth="20%p" />
