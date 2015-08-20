@@ -21,7 +21,10 @@
 <merge
     xmlns:latin="http://schemas.android.com/apk/res/com.wparam.kb.inputmethod.latin"
 >
-    <switch>
+	<Key
+                latin:keyStyle="comKeyStyle"
+                latin:keyWidth="fillRight" />
+	<!--<switch>
         <case
             latin:mode="email|url"
         >
@@ -34,5 +37,5 @@
                 latin:keyStyle="emojiKeyStyle"
                 latin:keyWidth="fillRight" />
         </default>
-    </switch>
+    </switch>-->
 </merge>

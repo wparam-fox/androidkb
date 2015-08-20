@@ -139,13 +139,13 @@
         </case>
         <!-- Smiley in textShortMessage field.
              Overrides common enter key style. -->
-        <case
+	<!--<case
             latin:mode="im"
         >
             <key-style
                 latin:styleName="enterKeyStyle"
                 latin:parentStyle="emojiKeyStyle" />
-        </case>
+	</case>-->
     </switch>
     <key-style
         latin:styleName="tabKeyStyle"

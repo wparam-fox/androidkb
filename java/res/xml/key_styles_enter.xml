@@ -182,15 +182,14 @@
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
                 latin:keyLabelFlags="hasPopupHint|preserveCase"
-                latin:moreKeys="!fixedColumnOrder!2,!needsDividers!,!text/emoji_key_as_more_key,!text/action_previous_as_more_key" />
+                latin:moreKeys="!text/action_previous_as_more_key" />
         </case>
         <case
             latin:imeAction="actionNext"
             latin:navigatePrevious="false"
         >
             <key-style
-                latin:styleName="navigateMoreKeysStyle"
-                latin:moreKeys="!text/emoji_key_as_more_key" />
+                latin:styleName="navigateMoreKeysStyle" />
         </case>
         <case
             latin:imeAction="actionPrevious"
@@ -199,15 +198,14 @@
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
                 latin:keyLabelFlags="hasPopupHint|preserveCase"
-                latin:moreKeys="!fixedColumnOrder!2,!needsDividers!,!text/emoji_key_as_more_key,!text/action_next_as_more_key" />
+                latin:moreKeys="!text/action_next_as_more_key" />
         </case>
         <case
             latin:imeAction="actionPrevious"
             latin:navigateNext="false"
         >
             <key-style
-                latin:styleName="navigateMoreKeysStyle"
-                latin:moreKeys="!text/emoji_key_as_more_key" />
+                latin:styleName="navigateMoreKeysStyle" />
         </case>
         <case
             latin:navigateNext="true"
@@ -216,7 +214,7 @@
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
                 latin:keyLabelFlags="hasPopupHint|preserveCase"
-                latin:moreKeys="!fixedColumnOrder!3,!needsDividers!,!text/emoji_key_as_more_key,!text/action_previous_as_more_key,!text/action_next_as_more_key" />
+                latin:moreKeys="!fixedColumnOrder!2,!needsDividers!,!text/action_previous_as_more_key,!text/action_next_as_more_key" />
         </case>
         <case
             latin:navigateNext="true"
@@ -225,7 +223,7 @@
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
                 latin:keyLabelFlags="hasPopupHint|preserveCase"
-                latin:moreKeys="!fixedColumnOrder!2,!needsDividers!,!text/emoji_key_as_more_key,!text/action_next_as_more_key" />
+                latin:moreKeys="!text/action_next_as_more_key" />
         </case>
         <case
             latin:navigateNext="false"
@@ -234,15 +232,14 @@
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
                 latin:keyLabelFlags="hasPopupHint|preserveCase"
-                latin:moreKeys="!fixedColumnOrder!2,!needsDividers!,!text/emoji_key_as_more_key,!text/action_previous_as_more_key" />
+                latin:moreKeys="!text/action_previous_as_more_key" />
         </case>
         <case
             latin:navigateNext="false"
             latin:navigatePrevious="false"
         >
             <key-style
-                latin:styleName="navigateMoreKeysStyle"
-                latin:moreKeys="!text/emoji_key_as_more_key" />
+                latin:styleName="navigateMoreKeysStyle" />
         </case>
         <default>
             <key-style
