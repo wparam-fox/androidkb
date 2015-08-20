@@ -30,28 +30,30 @@
         latin:keyActionFlags="isRepeatable|noKeyPreview"
          />
     <Key
-        latin:keyLabel="!text/keylabel_for_symbols_2"
-        latin:additionalMoreKeys="!text/additional_more_keys_for_symbols_2"
-        latin:moreKeys="!text/more_keys_for_symbols_2" />
+        latin:keyLabel="^A"
+        latin:code="!craw/0x1d"
+        latin:keyWidth="12%p"
+        />
     <Key
-        latin:keyLabel="!text/keylabel_for_symbols_3"
-        latin:additionalMoreKeys="!text/additional_more_keys_for_symbols_3"
-        latin:moreKeys="!text/more_keys_for_symbols_3" />
+        latin:keyLabel="^E"
+        latin:code="!craw/0x21"
+        latin:keyWidth="12%p"
+        />
     <Key
-        latin:keyLabel="!text/keylabel_for_symbols_4"
-        latin:additionalMoreKeys="!text/additional_more_keys_for_symbols_4"
-        latin:moreKeys="!text/more_keys_for_symbols_4" />
+        latin:keyLabel="^W"
+        latin:code="!craw/0x33"
+        latin:keyWidth="12%p"
+        />
     <Key
-        latin:keyLabel="!text/keylabel_for_symbols_5"
-        latin:additionalMoreKeys="!text/additional_more_keys_for_symbols_5"
-        latin:moreKeys="!text/more_keys_for_symbols_5" />
+        latin:keyLabel="^U"
+        latin:code="!craw/0x31"
+        latin:keyWidth="12%p"
+        />
     <Key
-        latin:keyLabel="!text/keylabel_for_symbols_6"
-        latin:additionalMoreKeys="!text/additional_more_keys_for_symbols_6"
-        latin:moreKeys="!text/more_keys_for_symbols_6" />
-    <Key
-        latin:keyLabel="!text/keylabel_for_symbols_7"
-        latin:additionalMoreKeys="!text/additional_more_keys_for_symbols_7"
-        latin:moreKeys="!text/more_keys_for_symbols_7" />
+        latin:keyLabel="^B"
+        latin:code="!craw/0x1e"
+        latin:keyWidth="12%p"
+        />
+    
     
 </merge>

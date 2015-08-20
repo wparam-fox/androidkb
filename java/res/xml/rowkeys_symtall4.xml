@@ -22,10 +22,11 @@
 
     <Key
 	    latin:backgroundType="functional"
-	    latin:code="!raw/0x3d"
-        latin:keyLabel="TAB" />
+        latin:keyLabel="|" />
     <Key
         latin:backgroundType="functional"
+	latin:keyHintLabel="|" 
+        latin:additionalMoreKeys="\\"
         latin:keyLabel="/" />
 
     <switch>

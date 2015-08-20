@@ -53,12 +53,20 @@
         </default>
     </switch>
     <Key
-        latin:keyLabel=":" />
+        latin:keyLabel="&amp;" 
+        latin:additionalMoreKeys=":,[,},],{"
+        latin:keyHintLabel="[]"
+        />
     
     <Key
         latin:keyLabel="!"
-        latin:moreKeys="!text/more_keys_for_symbols_exclamation" />
+        latin:keyHintLabel=";" 
+        latin:additionalMoreKeys=";"
+        latin:moreKeys="!text/more_keys_for_symbols_exclamation" 
+        />
     <Key
         latin:keyLabel="!text/keylabel_for_symbols_question"
+        latin:additionalMoreKeys="*"
+        latin:keyHintLabel="*"
         latin:moreKeys="!text/more_keys_for_symbols_question" />
 </merge>

@@ -27,7 +27,8 @@
             latin:languageSwitchKeyEnabled="true"
         >
             <Key
-                latin:keyStyle="tabKeyStyle" />
+                latin:keyStyle="tabKeyStyle" 
+                latin:code="!raw/0x3d" />
             <Key
                 latin:keyStyle="spaceKeyStyle"
                 latin:keyWidth="30%p" />
@@ -48,7 +49,8 @@
             latin:languageSwitchKeyEnabled="true"
         >
             <Key
-                latin:keyStyle="tabKeyStyle" />
+                latin:keyStyle="tabKeyStyle"  
+                latin:code="!raw/0x3d" />
             <Key
                 latin:keyStyle="spaceKeyStyle"
                 latin:keyWidth="40%p" />
