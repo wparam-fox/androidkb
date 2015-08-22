@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge
+    xmlns:latin="http://schemas.android.com/apk/res/com.wparam.kb.inputmethod.latin"
+>
+
+    <Key
+        latin:code="!raw/0x8b"
+        latin:keyLabel="f9" />
+    <Key
+        latin:code="!raw/0x8c"
+        latin:keyLabel="f10" />
+    <Key
+        latin:code="!raw/0x8d"
+        latin:keyLabel="f11" />
+    <Key
+        latin:code="!raw/0x8e"
+        latin:keyLabel="f12" />
+    
+    <Key
+        latin:visualInsetsLeft="2%p"
+        latin:keyWidth="14%p"
+        latin:code="!raw/0x58"
+        latin:keyLabel="&#x00ab;" />
+    <Key
+        latin:keyWidth="12%p"
+        latin:code="!raw/0x55"
+        latin:keyLabel="&gt;/||" />
+    <Key
+        latin:keyWidth="14%p"
+        latin:visualInsetsRight="2%p"
+        latin:code="!raw/0x57"
+        latin:keyLabel="&#x00bb;" />
+
+    <Key
+        latin:code="!raw/0xa8"
+        latin:keyLabel="Z+" />
+    <Key
+        latin:code="!raw/0xa9"
+        latin:keyLabel="Z-" />
+
+
+    <!--<Key
+        latin:keyWidth="12%p"
+        latin:code="!raw/0x82"
+        latin:keyLabel="rec" />
+
+    <Key
+        latin:keyWidth="12%p"
+        latin:code="!raw/0xa4"
+        latin:keyLabel="mute" />-->
+
+    <!--<Key
+        latin:code="!raw/0xdf"
+        latin:keyLabel="slep" />
+    <Key
+        latin:code="!raw/0x78"
+        latin:keyLabel="sysrq" />
+
+    <Key
+        latin:code="!raw/0x19"
+        latin:keyLabel="Vv" />
+    <Key
+        latin:code="!raw/0x18"
+        latin:keyLabel="V^" />
+    
+-->
+
+   
+</merge>

@@ -29,7 +29,7 @@
         latin:elementKeyboard="@xml/kbd_symbolstall" />
     <Element
         latin:elementName="symbolsShifted"
-        latin:elementKeyboard="@xml/kbd_symbols_shift" />
+        latin:elementKeyboard="@xml/kbd_symbols_shiftta" />
     <Element
         latin:elementName="phone"
         latin:elementKeyboard="@xml/kbd_phone" />
