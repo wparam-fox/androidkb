@@ -24,7 +24,7 @@
     <Key
         latin:keyLabel="1"
         latin:keyHintLabel="!"
-        latin:additionalMoreKeys="!"
+        latin:additionalMoreKeys="!,&#x00A1;"
         />
     <Key
         latin:keyLabel="2"
@@ -39,17 +39,17 @@
     <Key
         latin:keyLabel="4"
         latin:keyHintLabel="$"
-        latin:additionalMoreKeys="$"
+        latin:additionalMoreKeys="$,&#x00A3;,&#x00A2;,&#x20AC;,&#x00A5;,&#x20B1;"
         />
     <Key
         latin:keyLabel="5"
         latin:keyHintLabel="%"
-        latin:additionalMoreKeys="%"
+        latin:additionalMoreKeys="%,&#x2030;"
         />
     <Key
         latin:keyLabel="6"
         latin:keyHintLabel="^"
-        latin:additionalMoreKeys="^"
+        latin:additionalMoreKeys="^,&#x2191;,&#x2193;,&#x2190;,&#x2192;"
         />
     <Key
         latin:keyLabel="7"

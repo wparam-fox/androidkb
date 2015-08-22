@@ -22,25 +22,22 @@
     <Key
         latin:keyWidth="13%p"
         latin:keyLabelFlags="hasPopupHint|preserveCase"
-        latin:keyLabel="bob"
-        latin:moreKeys="http://,ftp://,irc://,file://"
+        latin:keyLabel="clear"
         latin:backgroundType="functional"
-        latin:keyOutputText="https://"
+        latin:code="!raw/0x1C"
         />
     <Key
-        latin:keyWidth="13%p"
+        latin:keyWidth="14%p"
         latin:keyLabelFlags="hasPopupHint|preserveCase"
-        latin:keyLabel="adoo"
-        latin:moreKeys="http://,ftp://,irc://,file://"
+        latin:keyLabel="toasty"
         latin:backgroundType="functional"
-        latin:keyOutputText="https://"
         />
 
     <include
         latin:keyboardLayout="@xml/key_space_symbols" />
 
     <Key
-        latin:keyWidth="14%p"
+        latin:keyWidth="13%p"
         latin:keyLabelFlags="hasPopupHint|preserveCase"
         latin:keyLabel="https"
         latin:moreKeys="!fixedColumnOrder!4,http://,ftp://,irc://,file://"

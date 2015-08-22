@@ -64,11 +64,20 @@
         />
     <!-- U+00A9: "©" COPYRIGHT SIGN -->
     <Key
-        latin:keyLabel="&#x00A9;" />
-    <!-- U+00AE: "®" REGISTERED SIGN -->
+        latin:keyLabel="&#x00A9;" 
+        latin:keyHintLabel="&#x2122;"
+        latin:additionalMoreKeys="&#x2122;,&#x00AE;,&#x2105;"
+        />
+    <!-- math stuff -->
     <Key
-        latin:keyLabel="&#x00AE;" />
-    <!-- U+2122: "™" TRADE MARK SIGN -->
+        latin:keyLabel="&#x2260;"
+        latin:keyHintLabel="&#x00F7;"
+        latin:additionalMoreKeys="&#x00F7;,&#x00D7;,&#x2248;,&#x221E;,&#x2032;,&#x2033;,&#x00B0;,&#x221A;,&#x222B;,&#x2234;"
+        />
     <Key
-        latin:keyLabel="&#x2122;" />
+        latin:keyLabel="&#x03C0;"
+        latin:keyHintLabel="&#x2206;"
+        latin:additionalMoreKeys="&#x2206;,&#x03A0;,&#x00B6;,&#x00A7;,&#x2211;"
+        />
+    
 </merge>

@@ -22,6 +22,8 @@
 
     <Key
 	    latin:backgroundType="functional"
+	latin:keyHintLabel="&#x2020;" 
+        latin:additionalMoreKeys="&#x2020;,&#x2021;,&#x2605;"
         latin:keyLabel="|" />
     <Key
         latin:backgroundType="functional"

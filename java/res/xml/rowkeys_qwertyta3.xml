@@ -48,6 +48,6 @@
         latin:moreKeys="!text/more_keys_for_n" />
     <Key
 	latin:keyHintLabel="\?"
-        latin:additionalMoreKeys="\?"
+        latin:additionalMoreKeys="\?,&#x00BF;"
         latin:keyLabel="m" />
 </merge>
