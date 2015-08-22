@@ -59,29 +59,11 @@
 
 
     <!--<Key
-        latin:keyWidth="12%p"
-        latin:code="!raw/0x82"
-        latin:keyLabel="rec" />
-
-    <Key
-        latin:keyWidth="12%p"
-        latin:code="!raw/0xa4"
-        latin:keyLabel="mute" />-->
-
-    <!--<Key
         latin:code="!raw/0xdf"
         latin:keyLabel="slep" />
     <Key
         latin:code="!raw/0x78"
         latin:keyLabel="sysrq" />
-
-    <Key
-        latin:code="!raw/0x19"
-        latin:keyLabel="Vv" />
-    <Key
-        latin:code="!raw/0x18"
-        latin:keyLabel="V^" />
-    
 -->
 
    

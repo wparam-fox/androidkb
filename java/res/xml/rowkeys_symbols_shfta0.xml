@@ -58,10 +58,4 @@
         latin:keyLabel="pgup"
         latin:code="!raw/0x5c" />
     
-    <!-- <Key
-        latin:code="!raw/0x8b"
-        latin:keyLabel="f9" />
-    <Key
-        latin:code="!raw/0x8c"
-        latin:keyLabel="f10" />-->
 </merge>
