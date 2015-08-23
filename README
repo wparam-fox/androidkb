@@ -1,0 +1,32 @@
+Greetings!
+
+This is a re-do of the android keyboard as it was available in the AOSP for the KitKat release of android.  The initial commit (8c89941d3feec) was actually made based on a version that I used in the field for almost three years.  When I started, I had no clue about git and no desire to learn it, so there were untracked and unstaged modifications in my AOSP vm for a long, long time.  I eventually pulled it out, and managed to get it building separate from the main android build tree (which is way harder than it needs to be).
+
+There is a branch in there, "original code", which you could use to generate a diff of my initial (pre-git) work.  It's mostly changes to XML.
+
+LICENSE INFO:
+AOSP is licensed under the apache license, thus these files are as well.  Most changes are new xml files created by me, but a few source files have been edited as well.  A diff of the source tree from the original_code branch to the master branch will reveal all of the files that have been changed.
+
+
+To build:
+
+You will need the android SDK and NDK.  I use NDK r10e, and build tools for api 17.  The build should be:
+
+1) Clone out the repository
+2) cd androidkb/java
+3) ndk-build
+4) ant clean debug
+
+The NDK build will throw up a METRIC BOATLOAD of warnings.  As far as I can tell, they are harmless.  (Code seems to work for me).  To get it to run at all I had to remove -Werror from the gcc command line.
+
+Issues with the keyboard:
+1) I pulled out a lot (a LOT) of internationalization stuff in order to cut down on the code size.  This was a mostly-selfish thing done because I didn't want to more than double the size of my personal code repository with this project.  Generally everything lost was lost in 220bab2950f26ce5 if you're looking to get something back.  There is no reason the other nationalities can't be modified to have a 5th row of keys like mine, it's just REALLY REALLY annoying to do this work, so I'm not going to go there.
+
+2) Due to the mass removal mentioned in (1), there are still some features that have their XML gone, but their code/preferences/dialogs still in.  These can lead to a crash if you go out of your way to find them.
+
+3) Keys to access emoji keyboard are gone.  Pull requests to add them back in will *NOT* be accepted unless some setting mechanism is provided to maintain the current behavior.  (I hate hate hate emoji--removing that button was actually a major reason I re-started development.)
+
+4) Some of the keys, particularly on the shifted-symbol page, don't actually have any effect, but I left them in because I needed to fill key space.  (Search and settings and clear, and other similar things)
+
+5) The US english keyboard (non-tall) is basically unmodified.  The short keyboard, useful when using the console in landscape mode, is also pretty under-edited, because I discovered that I basically only ever use the 5 row kwyboard ever.
+
