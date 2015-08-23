@@ -15,7 +15,8 @@ You will need the android SDK and NDK.  I use NDK r10e, and build tools for api 
 1) Clone out the repository
 2) cd androidkb/java
 3) ndk-build
-4) ant clean debug
+4) Copy v4 of the android support libs from android-sdk/extras/android/support to the libs/ dir
+5) ant clean debug
 
 The NDK build will throw up a METRIC BOATLOAD of warnings.  As far as I can tell, they are harmless.  (Code seems to work for me).  To get it to run at all I had to remove -Werror from the gcc command line.
 
