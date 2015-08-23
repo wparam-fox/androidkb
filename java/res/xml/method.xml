@@ -103,20 +103,6 @@
             android:imeSubtypeExtraValue="TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable"
     />
     <subtype android:icon="@drawable/ic_ime_switcher_dark"
-            android:label="@string/subtype_en_USTA"
-            android:subtypeId="0xc9194f99"
-            android:imeSubtypeLocale="en_USTA"
-            android:imeSubtypeMode="keyboard"
-            android:imeSubtypeExtraValue="TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable"
-    />
-    <subtype android:icon="@drawable/ic_ime_switcher_dark"
-            android:label="@string/subtype_en_USSM"
-            android:subtypeId="0xc9194f9A"
-            android:imeSubtypeLocale="en_USSM"
-            android:imeSubtypeMode="keyboard"
-            android:imeSubtypeExtraValue="TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable"
-    />
-    <subtype android:icon="@drawable/ic_ime_switcher_dark"
             android:label="@string/subtype_en_GB"
             android:subtypeId="0xb045e755"
             android:imeSubtypeLocale="en_GB"

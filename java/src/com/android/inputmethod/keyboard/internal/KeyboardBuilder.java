@@ -834,9 +834,7 @@ public class KeyboardBuilder<KP extends KeyboardParams> {
         // {@link #parseGridRows(XmlPullParser,boolean)} may populate keyboard rows higher than
         // previously expected.
         final int actualHeight = mCurrentY - mParams.mVerticalGap + mParams.mBottomPadding;
-        // wParam edit: allow the height to shrink, too (add the /2)
-        mParams.mOccupiedHeight = Math.max(mParams.mOccupiedHeight / 2, actualHeight);
-	
+        mParams.mOccupiedHeight = Math.max(mParams.mOccupiedHeight, actualHeight);
     }
 
     private void addEdgeSpace(final float width, final KeyboardRow row) {

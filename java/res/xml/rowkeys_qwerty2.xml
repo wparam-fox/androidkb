@@ -46,6 +46,5 @@
         latin:moreKeys="!text/more_keys_for_k" />
     <Key
         latin:keyLabel="l"
-	latin:keyHintLabel=":D"
         latin:moreKeys="!text/more_keys_for_l" />
 </merge>
