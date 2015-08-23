@@ -48,6 +48,7 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.util.Arrays;
 import java.util.Locale;
+import java.util.Random;
 
 /**
  * Class for describing the position and characteristics of a single key in the keyboard.
@@ -738,7 +739,22 @@ public class Key implements Comparable<Key> {
 
     public final String getOutputText() {
         final OptionalAttributes attrs = mOptionalAttributes;
-        return (attrs != null) ? attrs.mOutputText : null;
+
+        if (attrs == null)
+            return null;
+
+        if (attrs.mOutputText == null)
+            return null;
+
+        if (mMoreKeys == null)
+            return attrs.mOutputText; //whatever it is
+
+        if (!attrs.mOutputText.equals("RANDOM_MORE_KEY"))
+            return attrs.mOutputText;
+
+        MoreKeySpec mk = mMoreKeys[new Random().nextInt(mMoreKeys.length)];
+
+        return mk.mOutputText + " ";
     }
 
     public final int getAltCode() {

@@ -27,17 +27,19 @@
         latin:code="!raw/0x1C"
         />
     <Key
-        latin:keyWidth="14%p"
+        latin:keyWidth="13%p"
         latin:keyLabelFlags="hasPopupHint|preserveCase"
-        latin:keyLabel="toasty"
+        latin:keyLabel="fox"
         latin:backgroundType="functional"
+	latin:keyOutputText="RANDOM_MORE_KEY"
+	latin:moreKeys="yip,yap,yerf,mrawr,mrrf,bark,yerp,yarp,merp,merf,marfle,marple,merfle,mmrr,rawrf,rawr,marp,meep,beep,boop,arf,grarble,yerpitty,yeep"
         />
 
     <include
         latin:keyboardLayout="@xml/key_space_symbols" />
 
     <Key
-        latin:keyWidth="13%p"
+        latin:keyWidth="14%p"
         latin:keyLabelFlags="hasPopupHint|preserveCase"
         latin:keyLabel="https"
         latin:moreKeys="!fixedColumnOrder!4,http://,ftp://,irc://,file://"
