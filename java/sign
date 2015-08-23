@@ -1,0 +1,17 @@
+#!/bin/bash -e
+
+APK=./bin/wKeyboard-release
+APK_UN="${APK}-unsigned.apk"
+APK_UNAL="${APK}-unaligned.apk"
+APK_FIN="$APK.apk"
+[ -f "$APK_UN" ]
+
+KP=
+[ -n "$PASS" ] && KP="-storepass $PASS"
+jarsigner -verbose -keystore $HOME/src/_key/wparam-android.store $KP "$APK_UN" wKey
+jarsigner -verify "$APK_UN"
+mv "$APK_UN" "$APK_UNAL"
+
+zipalign -v 4 "$APK_UNAL" "$APK_FIN"
+
+
