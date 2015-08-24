@@ -150,7 +150,7 @@
                 android:title="@string/include_other_imes_in_language_switch_list"
                 android:summary="@string/include_other_imes_in_language_switch_list_summary"
                 android:persistent="true"
-                android:defaultValue="false" />
+                android:defaultValue="true" />
             <!-- Values for popup dismiss delay are added programmatically -->
             <CheckBoxPreference
                 android:key="pref_sliding_key_input_preview"
